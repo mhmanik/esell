@@ -1,0 +1,22 @@
+/*-------------------------
+    Main Menu Nav  
+--------------------------*/
+.mainmenu {
+    @extend %liststyle;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    li {
+        margin: 0 25px;
+        a {
+            color: var(--color-extra01);
+            font-weight: 500;
+            font-size: var(--font-size-b2);
+            line-height: 104px;
+            height: 104px;
+            display: block;
+        }
+    }
+}
+

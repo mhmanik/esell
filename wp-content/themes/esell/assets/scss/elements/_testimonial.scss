@@ -1,0 +1,16 @@
+.testimonial-slick-activation {
+    .thumbnail {
+        img {
+            border-radius: 20px;
+            transition: 0.5s;
+            transform: scale(.8);
+        }
+    }
+    .slick-current.slick-active {
+        .thumbnail {
+            img {
+                transform: scale(1);
+            }
+        }
+    }
+}

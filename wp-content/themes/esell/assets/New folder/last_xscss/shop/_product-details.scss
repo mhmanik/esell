@@ -1,0 +1,110 @@
+/*----------------------------
+    Product Details Styles  
+----------------------------*/
+
+.single-product-content {
+    .inner {
+
+        // Product Rating 
+        .product-rating {
+            display: flex;
+            margin-bottom: 20px;
+            .star-rating {
+                img {
+
+                }
+            }
+            .review-link {
+                a {
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #656973;
+                }
+            }
+        }
+
+
+        .product-title {
+            margin-bottom: 30px;
+        }
+
+        .price-amount {
+            font-weight: 500;
+            font-size: 24px;
+            display: block;
+            padding-bottom: 20px;
+        }
+
+
+        .product-meta {
+            @extend %liststyle;
+            margin-bottom: 20px;
+            li {
+                color: var(--color-primary);
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                i {
+                    padding-right: 15px;
+                    font-size: 22px;
+                }
+            }
+        }
+
+        .description {
+            margin-bottom: 30px;
+        }
+
+
+        .product-variation {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            .title {
+                font-weight: 500;
+                font-size: 20px;
+                margin-bottom: 0;
+                min-width: 114px;
+            }
+            .variable-items-wrapper {
+                display: flex;
+                align-items: center;
+                @extend %liststyle;
+
+                &.color-variable-wrapper {
+                    li {
+                        &.color-variable-item {
+                            
+                            .variable-item-span {
+                                padding: 5px;
+                                border: 1px solid transparent;
+                                display: block;
+                                border-radius: 100%;
+                            }
+                        }
+                    }
+                }
+
+
+
+
+            }
+        }
+
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

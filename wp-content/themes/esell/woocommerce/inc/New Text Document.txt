@@ -1,0 +1,13 @@
+
+global $wooc_globals;
+$wooc_globals = array();
+
+// Globals: WooCommerce - Custom variation controls
+
+$wooc_globals['pa_color_slug'] = sanitize_title(apply_filters('wooc_color_attribute_slug', 'color'));
+$wooc_globals['pa_variation_controls'] = array(
+    'color' => esc_html__('Color', 'esell'),
+    'image' => esc_html__('Image', 'esell'),
+    'size' => esc_html__('Label', 'esell')
+);
+$wooc_globals['pa_cache'] = array();

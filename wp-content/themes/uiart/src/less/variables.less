@@ -1,0 +1,86 @@
+// Variables
+
+@accentColor2: 		 #0e283f;
+@accentLight2: 		 #1d3b55;
+@accentTextColor2: 	 #9bb2c6;
+
+@bodyColor: 		 #606060;
+@productTitleColor:  #444444;
+@secondaryColor: 	 #222222;
+@secondaryTextColor: #222222;
+@secondaryLight: 	 #444444;
+
+@primaryColor: 		 #5956E9;
+@lightprimaryColor:  #DBDEFF;
+
+@accentColor: 		 	#E76458;
+@accentLight:			#ffe5df;
+@accentTextColor: 	 	#FFFFFF;
+
+@blogMetaColor:		 @bodyColor;
+@cBgColor: 			 #DBDEFF; 
+@bgColor2: 			 #f8f8fb;
+
+@bgColor: 			@bgColor2;
+@regularPrice: 		#cfdce7;
+@borderColor: 		@bgColor2;
+@borderLight: 		#f6f6f6;
+@metaColor: 		#b3bed3;
+@iconBtnBg: 		#e9f1f8;
+
+@lightColor:		#eff7ff;
+@pbgcolor:			#fafafa;
+
+
+@p1: 		#f89929;
+@p1L: 		#fff5e8;
+
+@p2: 		#bda2ff;
+@p2L: 		#f5f1ff;
+
+@p3: 		#acfbff;
+@p3L: 		#ecfeff;
+
+@p4: 		#a6fdcd;
+@p4L: 		#e9fff3;
+
+@p5: 		#fde192;
+@p5L: 		#fff9e8;
+
+@p5: 		#a8f9fd;
+@p5L: 		#ecfeff;
+
+@titleFont: 'Josefin Sans', sans-serif;
+
+// #444444 = fade(@primaryColor, 78.5%);
+// #444444 = fade(@primaryColor, 78.5%);
+// #d9d9d9 = fade(@primaryColor, 15.5%);
+// #f2f2f2 = fade(@primaryColor, 5%);
+// #3c3c3c = fade(@primaryColor, 81.5%);
+
+
+@xldesktop:  ~"all and (max-width: 1640.98px)";
+@xldesktopL:  ~"all and (max-width: 1440.98px)";
+@ldesktop:  ~"all and (max-width: 1399.98px)";
+@desktop:   ~"all and (max-width: 1199.98px)";
+@sdesktop:  ~"all and (max-width: 1024.98px)";
+@tablet:    ~"all and (max-width: 991.98px)";
+@tabletSmill:    ~"all and (max-width: 825.98px)";
+@mobile:    ~"all and (max-width: 767.98px)";
+@small:     ~"all and (max-width: 575.98px)";
+@vsmall:    ~"all and (max-width: 479.98px)";
+
+
+// Mixins
+.ul0() {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+    
+.transition-ease-in-out(@duration: 0.3s, @ease: ease-in-out, @durationl: 0s) {
+    -webkit-transition: all @duration @ease @durationl;
+    -moz-transition: all @duration @ease @durationl;
+    -o-transition: all @duration @ease @durationl;
+    transition: all @duration @ease @durationl;
+}

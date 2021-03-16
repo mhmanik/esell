@@ -1,0 +1,147 @@
+/*------------------------
+    Footer Styles  
+-------------------------*/
+
+.footer-top {
+    padding-top: 84px;
+    padding-bottom: 84px;
+    position: relative;
+    &.separator-top {
+        &::after {
+            position: absolute;
+            top: 0;
+            width: 1290px;
+            height: 4px;
+            background-color: var(--color-light);
+            content: "";
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            border-radius: 100px;
+        }
+    }
+}
+
+
+/*----------------------
+    Footer Widget  
+----------------------*/
+
+.axil-footer-widget {
+    .widget-title {
+        color: var(--color-body);
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: -0.025em;
+    }
+    .inner {
+        ul {
+            padding-left: 0;
+            >li {
+                &:first-child {
+                    margin-top: 0;
+                }
+            }
+        }
+        ul {
+            list-style: none;
+            li {
+                margin-top: 18px;
+                margin-bottom: 18px;
+                a {
+                    color: var(--color-heading);
+                    font-weight: 500;
+                    font-size: 20px;
+                    transition: 0.3s;
+                    &:hover {
+                        color: var(--color-primary);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*-----------------------
+    Copyright Area  
+------------------------*/
+
+.copyright-default {
+    padding: 25px 0;
+    .quick-link {
+        @extend %liststyle;
+        display: flex;
+        margin: -15px;
+        li {
+            padding: 15px;
+            position: relative;
+            color: var(--color-body);
+            font-weight: 500;
+            font-size: 14px;
+            letter-spacing: -0.025em;
+            &::after {
+                position: absolute;
+                content: "";
+                background: var(--color-body);
+                width: 6px;
+                height: 6px;
+                border-radius: 100%;
+                left: -3px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            a {
+                color: var(--color-body);
+                font-weight: 500;
+                font-size: 14px;
+                letter-spacing: -0.025em;
+                transition: 0.5s;
+                &:hover {
+                    color: var(--color-primary);
+                }
+            }
+        }
+        &.payment-icons-bottom {
+            margin: -15px -10px;
+            li {
+                padding: 15px 10px;
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+    &.separator-top {
+        position: relative;
+        &::after {
+            position: absolute;
+            content: "";
+            background-color: #F6F7FB;
+            border-radius: 100px;
+            height: 2px;
+            width: 1290px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            top: 0;
+        }
+    }
+    .copyright-right {
+        span {
+            &.card-text {
+                color: var(--color-body);
+                font-size: 14px;
+                font-weight: 500;
+                display: inline-block;
+                margin-right: 20px;
+                letter-spacing: -0.025em;
+            }
+        }
+    }
+    .copyright-left {
+        ul+ul {
+            margin-left: 15px;
+        }
+    }
+}

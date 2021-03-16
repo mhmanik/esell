@@ -1,0 +1,65 @@
+/*------------------------------
+    Header Top Styles  
+-------------------------------*/
+.axil-header {
+    &.header-style-1 {
+        // Header Top 
+        .axil-header-top {
+            padding: 5px 60px;
+
+            .header-top-text {
+                p {
+                    font-size: var(--font-size-b3);
+                    line-height: var(--line-height-b3);
+                    font-weight: 500;
+                    margin-bottom: 0;
+                }
+            }
+
+            &.bg-color-dark {
+                .header-top-text {
+                    p {
+                        color: var(--color-white);
+                    }
+                }
+
+                .quick-link {
+                    li {
+                        a {
+                            color: var(--color-white)
+                        }
+                    }
+                }
+            }
+        }
+
+        // Quick Link 
+        .quick-link {
+            @extend %liststyle;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -20px;
+            justify-content: flex-end;
+            li {
+                margin: 0;
+                padding: 0 20px;
+                position: relative;
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 1px;
+                    height: 16px;
+                    background-color: var(--color-lightest);
+                    right: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+                a {
+                    font-size: var(--font-size-b3);
+                    line-height: var(--line-height-b3);
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}

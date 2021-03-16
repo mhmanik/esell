@@ -1,0 +1,97 @@
+/*-----------------------
+    Header Styles  
+-------------------------*/
+.axil-header {
+    &.header-style-1 {
+        .axil-mainmenu {
+            &.mainmenu-fullwidth {
+                padding: 0px 60px;
+            }
+        }
+        // Header Shopping Cart 
+        .header-items {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            .axil-search {
+                margin-right: 42px;
+                input[type="search"]{
+                    width: auto;
+                    padding-right: 15px;
+                }
+            }
+
+            .shopping-items {
+                @extend %liststyle;
+                display: flex;
+                margin: 0 -15px;
+
+                li {
+                    margin: 0 15px;
+
+                    a {
+                        i {
+                            color: var(--color-black);
+                            @extend %transition;
+                        }
+
+                        &:hover {
+                            i {
+                                color: var(--color-primary);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*------------------------
+    Header Add Banner  
+------------------------*/
+.axil-header {
+    &.header-style-1 {
+        .axil-header-add {
+            padding: 15px 0;
+            .inner {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                p {
+                    margin-bottom: 0;
+                    &.text {
+                        font-size: var(--font-size-b2);
+                        line-height: var(--line-height-b2);
+                        color: var(--color-black);
+                    }
+                    &.button {
+                        a {
+                            font-size: var(--font-size-b2);
+                            line-height: var(--line-height-b2);
+                            display: inline-block;
+                            color: var(--color-heading);
+                            text-decoration: underline;
+                        }
+                    }
+                    &.separator {
+                        padding: 0 42px;
+                        position: relative;
+                        &::before {
+                            width: 35px;
+                            height: 1px;
+                            background-color: var(--color-heading);
+                            content: "";
+                            position: absolute;
+                            top: 50%;
+                            transform: translate(-50%, -50%);
+                            left: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

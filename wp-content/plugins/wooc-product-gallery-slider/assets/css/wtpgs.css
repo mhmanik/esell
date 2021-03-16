@@ -1,0 +1,252 @@
+
+
+
+.wooc.wooc-vtrue{
+display: flex;    
+justify-content: center;
+}
+.woocue-gallery-left .wooc-nav img{
+    border-radius: 10px;
+}
+
+.wooc.wooc-vtrue .woocue-gallery-left{
+    width: 16%;      
+    margin-right: 15px;
+    border-radius: 12px;
+      
+}
+ .wooc.wooc-vtrue .woocue-gallery-right{
+    width: calc(100% - 16%);
+} 
+.wooc.wooc-vtrue .woocue-gallery-right.wooc-none-post-thumbnail{
+    width: 100%;
+}
+.wooc-nav .slick-track:before,
+.wooc-nav  .slick-track:after
+{
+    display: table;
+    content: '';
+}
+.wooc-vfalse .wooc-nav .slick-next {
+    right: 0;    
+}
+.wooc-vfalse .wooc-nav .slick-prev {
+    left: 0;    
+}
+.wooc-vfalse .wooc-nav:hover .slick-next {
+    right: 10px;
+    opacity:1;
+    visibility: visible;
+}
+.wooc-vfalse .wooc-nav:hover .slick-prev {
+    left: 10px;
+    opacity:1;
+     visibility: visible;
+}
+.wooc-vfalse .wooc-nav .slick-prev i,
+.wooc-vfalse .wooc-nav .slick-next i{
+    color: #0e283f;
+}
+.wooc-nav .slick-prev:hover i,
+.wooc-nav .slick-next:hover i{
+ color: #fe7656;
+}
+.wooc-vfalse .wooc-nav .slick-prev,
+.wooc-vfalse .wooc-nav .slick-next {
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    background: #e9f1f8;    
+    text-align: center;
+    padding-top: 6px;
+    transition: all 0.3s ease-out;
+    opacity: 0;
+}
+.wooc-vfalse .wooc-nav:hover.slick-prev,
+.wooc-vfalse .wooc-nav:hover .slick-next{
+    opacity: 1;
+}
+
+.wooc-vfalse .wooc-nav .slick-next {
+    right: 0;
+    top: 65px;
+    z-index: 9;
+    transform: rotate(-90deg);
+    opacity: 0;
+    visibility: hidden;
+   
+}
+.wooc-vfalse .wooc-nav .slick-prev { 
+    left: 0;
+    top: 65px;
+    z-index: 9;
+    transform: rotate(-90deg);
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+
+.wooc-vtrue .wooc-nav .slick-next {
+    left: 44px;
+    bottom: -30px;
+    top: inherit;
+}
+.wooc-vtrue .wooc-nav .slick-prev { 
+    left: 44px;
+    top: 0;
+}
+
+.wooc-nav.slick-vertical .slick-prev ,
+.wooc-nav.slick-vertical .slick-next {
+    background: #e9f1f8;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    padding-top: 4px;
+    transition: all 0.3s ease-out;
+    opacity: 0;
+}
+.wooc-nav.slick-vertical:hover .slick-prev ,
+.wooc-nav.slick-vertical:hover .slick-next {
+    opacity: 1;
+}
+.wooc-nav.slick-vertical .slick-prev:hover ,
+.wooc-nav.slick-vertical .slick-next:hover {
+    background: #fe7656;
+   
+}
+.wooc-nav.slick-vertical .slick-prev:hover i,
+.wooc-nav.slick-vertical .slick-next:hover i{
+      transition: all 0.3s ease-out;
+   color: #fff;
+}
+.wooc-nav.slick-vertical .slick-prev i,
+.wooc-nav.slick-vertical .slick-next i{
+   color: #0e283f;
+}
+.wooc-nav.slick-vertical .slick-next {
+    position: absolute;
+    top: auto;
+    bottom: -40px; 
+    left: 0;
+    margin-left: 0;
+    text-align: center;
+    right: 0;
+    margin: auto;
+    padding-top: 5px;
+       border: 2px solid #ffffff;
+}
+
+.wooc-nav.slick-vertical .slick-prev {
+    position: absolute;
+    top: 0;   
+    bottom: auto;
+    margin-top: 0;     
+    border: 2px solid #ffffff;
+    left: 0;
+    margin-left: 0;
+    text-align: center;
+    right: 0;
+    margin: auto;
+        z-index: 9;
+
+}
+
+ .wooc-nav.slick-vertical .slick-prev:before,
+ .wooc-nav.slick-vertical .slick-next:before {
+    transform:rotate(90deg);
+    display:inline-block
+}
+
+
+.wooc-for .slick-arrow {
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;     
+    text-align: center;
+    padding-top: 6px;
+     background: #e9f1f8;    
+
+}
+.wooc-for .slick-arrow:hover i{    
+     color: #fff;    
+
+}
+
+.wooc-for .slick-arrow:hover{
+    background:#0e283f;; 
+}
+.wooc-for .slick-prev i,
+.wooc-for .slick-next i{
+    font-size: 26px;
+    color: #0e283f;
+ }
+
+
+.wooc-for .slick-prev,
+.wooc-for .slick-next{
+    opacity: 0;
+    transition: all 0.3s ease-out;
+
+}
+
+.wooc-for .slick-prev:before,
+.wooc-for .slick-next:before{
+    font-family: inherit;
+     content: '';
+ }
+
+
+.wooc-for .slick-next {
+    right: 0;    
+}
+
+.wooc-for .slick-prev {
+    left: 0;    
+}
+
+.wooc-for:hover .slick-next {
+    right: 15px;
+    opacity:1
+}
+
+.wooc-for:hover .slick-prev {
+    left: 15px;
+    opacity:1
+}
+
+.wooc.wooc-vtrue .woocue-gallery-right{
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+
+}
+
+.woocue-gallery-right .wooc-for:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f002";
+    vertical-align: top;
+    font-weight: 900;
+    position: absolute;
+    top: 0;
+    right: 12px;
+    font-size: 22px;
+    z-index: -1;
+    opacity: 1;
+    visibility: hidden;
+    transition: 0.5s ease-in-out;   
+    color: #0e283f;
+}
+.woocue-gallery-right:hover .wooc-for:after{
+    opacity: 1;
+    visibility: visible;
+    top: 12px;
+}
+
+.wooc-nav .slick-slide{
+    margin-top: 0;
+}

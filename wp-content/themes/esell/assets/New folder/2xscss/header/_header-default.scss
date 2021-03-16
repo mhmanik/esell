@@ -1,0 +1,45 @@
+/*---------------------------
+    Header Default  
+----------------------------*/
+.axil-search {
+    position: relative;
+    .icon {
+        position: absolute;
+        left: 20px;
+        width: auto;
+        padding: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    input {
+        background: var(--color-lighter);
+        border-radius: 46px;
+        padding-left: 46px;
+        min-width: 252px;
+        font-size: var(--font-size-b3);
+        height: 50px;
+    }
+}
+
+
+/*---------------------------
+    Header Color 
+----------------------------*/
+
+.axil-search input::-webkit-input-placeholder {
+    color: #656973;
+}
+
+.axil-search input::-moz-placeholder {
+    color: #656973;
+}
+
+.axil-search input:-ms-input-placeholder {
+    color: #656973;
+}
+
+.axil-search input:-moz-placeholder {
+    color: #656973;
+}
+
+

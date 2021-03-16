@@ -1,0 +1,4 @@
+a:4:{s:8:"template";s:6:"mixlax";s:4:"mods";a:6:{i:0;b:0;s:18:"nav_menu_locations";a:3:{s:7:"primary";i:8;s:12:"header3right";i:24;s:11:"header3left";i:23;}s:18:"custom_css_post_id";i:94;s:13:"color_primary";s:7:"#f9a392";s:15:"color_secondary";s:7:"#fff9f9";s:10:"color_body";s:0:"";}s:7:"options";a:2:{s:9:"site_icon";s:1:"0";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:46:".header-tow-wrapper {
+   
+    z-index: 9999;
+}";}

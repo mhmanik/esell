@@ -1,0 +1,223 @@
+/*----------------------
+    Shop Styles  
+----------------------*/
+
+.category-select {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+    .single-select {
+        width: auto;
+        margin: 10px;
+        padding-right: 43px;
+        background: url(../images/icons/arrow-icon.png) 85% center no-repeat transparent;
+    }
+}
+
+
+
+
+/* Start Axil Single Product  */
+.axil-product {
+    position: relative;
+    .thumbnail {
+        position: relative;
+        a {
+            display: block;
+            img {
+                border-radius: 24px;
+                width: 100%;
+            }
+        }
+        .label-block {
+            position: absolute;
+            top: 24px;
+            left: 24px;
+            z-index: 2;
+            .product-badget {
+                background: #E76458;
+                border: 2px solid #FFFFFF;
+                height: 40px;
+                line-height: 40px;
+                padding: 8px 16px;
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: -0.025em;
+                color: #FFFFFF;
+                border-radius: 500px;
+                font-family: var(--font-secondary);
+            }
+            &.label-right {
+                left: auto;
+                right: -24px;
+            }
+        }
+    }
+
+    .product-content {
+        margin-top: 30px;
+        position: relative;
+        padding-bottom: 30px;
+        .inner {
+            transition: 0.3s;
+        }
+        .title {
+            font-weight: 500;
+            margin-bottom: 10px;
+            a {
+                transition: 0.3s;
+            }
+        }
+        .product-price-variant {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin: -4px;
+            span {
+                &.price {
+                    margin: 4px;
+                    color: var(--color-heading);
+                    font-weight: 500;
+                    font-size: 20px;
+                    &.old-price {
+                        color: #656973;
+                    }
+                }
+            }
+        }
+        .color-variant-wrapper {
+            margin-top: 10px;
+        }
+    }
+
+    .product-hover-action {
+        position: absolute;
+        top: 10%;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.3s;
+        .cart-action {
+            display: flex;
+            @extend %liststyle;
+            align-items: center;
+            margin: -5px;
+
+            li {
+                margin: 5px;
+                &.wishlist ,
+                &.quickview {
+                    a {
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 100%;
+                        border: 1px solid #CBD3D9;
+                        display: block;
+                        line-height: 60px;
+                        text-align: center;
+                        transition: 0.3s;
+                        &:hover {
+                            background: var(--color-primary);
+                            border: 1px solid transparent;
+                            color: var(--color-white);
+                        }
+                    }
+                }
+                &.add-to-cart {
+                    a {
+                        background: var(--color-primary);
+                        height: 60px;
+                        line-height: 60px;
+                        padding: 0 20px;
+                        display: block;
+                        border-radius: 500px;
+                        font-weight: 500;
+                        font-size: 16px;
+                        color: var(--color-white);
+                        border: 1px solid transparent;
+                        transition: 0.3s;
+                        &:hover {
+                            border: 1px solid var(--color-primary);
+                            background: transparent;
+                            color: var(--color-primary)
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &:hover {
+        .product-hover-action {
+            opacity: 1;
+            visibility: visible;
+            top: 0;
+        }
+        .product-content {
+            .inner {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+    }
+}
+
+.color-variant {
+    @extend %liststyle;
+    margin: 0 -4px;
+    margin-top: 10px;
+    display: flex;
+    li {
+        margin: 0 4px;
+        cursor: pointer;
+        span {
+            padding: 5px;
+            border: 1px solid transparent;
+            display: block;
+            border-radius: 100%;
+            .color {
+                background: var(--color-primary);
+                display: block;
+                width: 16px;
+                height: 16px;
+                border-radius: 100%;
+                border: 0 none !important;
+            }
+        }
+
+        &.active {
+            span {
+                border-color: #292930;
+            }
+        }
+
+        &.color-extra-01 {
+            span {
+                .color {
+                    background: #906145;
+                }
+            }
+        }
+
+        &.color-extra-02 {
+            span {
+                .color {
+                    background: #FAB8C4;
+                }
+            }
+        }
+        &.color-extra-03 {
+            span {
+                .color {
+                    background: #DFBF9B;
+                }
+            }
+        }
+    }
+}
+
+/* End Axil Single Product  */
+
+
+
+
+

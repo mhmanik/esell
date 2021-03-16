@@ -1,0 +1,11 @@
+/.htaccess
+/wp-content/uploads
+/wp-content/upgrade
+/wp-content/debug.log
+/wp-config.php
+/wp-content/themes/esell/package-lock.json
+/wp-content/themes/esell/node_modules
+/wp-content/themes/esell/_build
+/wp-content/plugins/esell-elements/node_modules
+/wp-content/plugins/esell-elements/_build
+

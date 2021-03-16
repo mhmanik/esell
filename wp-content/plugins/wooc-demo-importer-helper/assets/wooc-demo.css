@@ -1,0 +1,37 @@
+.demo-Warning-info{	
+	font-size: 18px;
+	padding: 20px;
+	border-top: 2px solid #e9f1f8;
+	border-right: 2px solid #e9f1f8;
+	border-bottom: 2px solid #e9f1f8;
+}
+.demo-Warning-info:first-word{	
+	color: #dc3232;
+}
+#fw-ext-backups-demo-list .fw-ext-backups-demo-item.active .theme-actions {
+	display: block !important;
+}
+.wp-heading-inline.icon-left{
+	background-image: url("fav.png");
+	background-repeat: no-repeat;	
+	padding: 0 0 0 39px;
+	margin-bottom: 15px;
+}
+
+.theme.fw-ext-backups-demo-item{
+	border: none;
+	background: #e9f1f8;
+	padding-top: 20px;
+	border-radius: 10px 10px 0 0; 
+
+}
+
+.theme.fw-ext-backups-demo-item  .theme-actions {
+	background: #f6f6f6;
+	box-shadow: none;
+}
+.theme.fw-ext-backups-demo-item h3.theme-name {
+	border: none;
+	box-shadow: none;
+	background: #f6f6f6;
+}

@@ -1,0 +1,58 @@
+.single-poster {
+    position: relative;
+    overflow: hidden;
+    border-radius: 40px;
+    a {
+        display: block;
+        img {
+            transition: 0.5s;
+        }
+    }
+    .poster-content {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        padding: 30px;
+        pointer-events: none;
+    }
+    .inner {
+        .title {
+            line-height: 1;
+            margin-bottom: 20px;
+            &.style-two {
+                font-size: 48px;
+            }
+        }
+        .sub-title {
+            font-size: 16px;
+            line-height: 24px;
+            position: relative;
+            padding-left: 49px;
+            &::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 12px;
+                width: 34px;
+                height: 1px;
+                background: #fff;
+            }
+        }
+        .title,
+        .sub-title {
+            color: #fff;
+        }
+    }
+    &:hover {
+        img {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.poster-sticker {
+    background: var(--color-chart03);
+    padding: 10px;
+    display: inline-flex;
+}

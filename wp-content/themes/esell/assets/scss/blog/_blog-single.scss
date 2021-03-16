@@ -1,0 +1,111 @@
+.axil-single-post {
+    padding: 0 160px;
+    @media #{$laptop-device} {
+        padding: 0 40px;
+    }
+    @media #{$smlg-device} {
+        padding: 0 40px;
+    }
+    @media #{$sm-layout} {
+        padding: 0 15px;
+    }
+    .post-content {
+        padding: 0 75px;
+        @media #{$smlg-device} {
+            padding: 0;
+        }
+    }
+    .post-thumbnail {
+        padding-top: 20px;
+    }
+    h1 {
+        font-size: 64px;
+        line-height: 64px;
+        @media #{$laptop-device} {
+            font-size: 40px;
+            line-height: 46px;
+        }
+        @media #{$smlg-device} {
+            font-size: 40px;
+            line-height: 46px;
+        }
+        @media #{$sm-layout} {
+            font-size: 34px;
+            line-height: 40px;
+        }
+    }
+    &.post-formate {
+        .content-block {
+            .post-thumbnail img {
+                border-radius: 40px;
+            }
+        }
+    }
+}
+
+.axil-single-widget:first-child,
+.widget-sidebar:first-child {
+    margin-top: 0 !important;
+}
+
+.newsletter-inner {
+    &::before {
+        content: "";
+        position: absolute;
+        left: 30px;
+        background: url(../images/send-mail.png) no-repeat;
+        z-index: 5;
+        top: 17px;
+        width: 25px;
+        height: 25px;
+    }
+}
+
+.wp-block-columns {
+    display: flex;
+    margin-bottom: 28px;
+    margin: 0 -15px;
+    @media #{$sm-layout} {
+        flex-wrap: wrap;
+    }
+}
+
+.wp-block-column {
+    flex-grow: 1;
+    min-width: 0;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    padding-right: 15px;
+    padding-left: 15px;
+    .wp-block-image {
+        img {
+            border-radius: 16px;
+        }
+    }
+}
+
+.post-details figure,
+.entry-content figure {
+    margin-bottom: 40px;
+}
+
+.post-details__social-share {
+    position: absolute;
+    top: 0;
+    left: -100px;
+    margin-bottom: 30px;
+    @media #{$smlg-device} {
+        position: static;
+    }
+    .share-on-text {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    .social-share {
+        flex-direction: column;
+        align-items: center;
+        @media #{$smlg-device} {
+            flex-direction: row;
+        }
+    }
+}

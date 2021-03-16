@@ -1,0 +1,53 @@
+
+.esell-newsletter-wrapper{
+  padding: 110px 107px 95px;
+  @media #{$smlg-device} {
+    padding: 80px 30px 65px;
+  }
+
+  @media #{$sm-layout} {
+    padding: 60px 15px 45px;
+  }
+  
+}
+.newsletter-form{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  @media #{$sm-layout} {
+    display: block;
+  }
+  button{
+    width: auto;
+  }
+}
+.newsletter-inner{
+  margin-right: 20px;
+  @media #{$sm-layout} {
+    margin-right: 0;
+  }
+  input{
+    border-radius: 100px;
+    padding-left: 66px;
+  }
+}
+.send-mail-icon {
+  position: absolute;
+  max-width: 100%;
+  top: 17px;
+  left: 30px;
+}
+
+.title-highlighter{
+  color: var(--color-chart03);
+  font-size: 40px;
+  line-height: 1;
+  font-family: 'Shadows Into Light', cursive;
+  display: inline-block;
+  @media #{$md-layout} {
+    font-size: 30px;
+  }
+  @media #{$sm-layout} {
+    font-size: 25px;
+  }
+}

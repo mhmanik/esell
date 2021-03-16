@@ -1,0 +1,270 @@
+/*---------------------
+ * Button
+-----------------------*/
+a,
+button {
+    &.axil-link-button {
+        text-decoration: none;
+        @extend %color-primary;
+        @extend %transition;
+        font-weight: var(--p-medium);
+        font-size: var(--font-size-b2);
+        line-height: 22px;
+
+
+        &:hover {
+            color: var(--color-secondary);
+        }
+    }
+}
+
+
+
+
+
+/*------------------
+    Axil Button  
+-------------------*/
+a,
+button,
+.wp-block-file {
+
+    &.axil-button,
+    &.wp-block-button__link,
+    .wp-block-file__button,
+    &.wp-block-search__button,
+    &.sbi_load_btn {
+        background: var(--color-primary);
+        color: var(--color-white);
+        font-weight: var(--p-medium);
+        font-size: var(--font-size-b2);
+        display: inline-block;
+        border: 2px solid transparent;
+        @extend %transition;
+        padding: 10px 30px;
+        height: auto;
+        line-height: 26px;
+        border-radius: 500px;
+        width: auto;
+
+        &.button-rounded {
+            border-radius: 500px;
+        }
+
+        &:hover {
+            color: var(--color-primary);
+            background: transparent;
+            border-color: var(--color-primary);
+        }
+
+        &.color-secondary-alt {
+            background: var(--color-secondary-alt);
+            border-color: var(--color-secondary-alt);
+
+            &:hover {
+                color: var(--color-secondary-alt);
+                background: transparent;
+            }
+        }
+
+        .hover-flip-item {
+            span {
+
+                &::after,
+                &::before {
+                    color: var(--color-white);
+                }
+            }
+        }
+
+    }
+}
+
+a {
+    &.sbi_load_btn {
+        background: var(--color-primary) !important;
+        color: var(--color-white) !important;
+        font-weight: var(--p-medium) !important;
+        font-size: var(--font-size-b2) !important;
+        display: inline-block !important;
+        border: 2px solid var(--color-primary) !important;
+        padding: 10px 30px !important;
+        height: auto !important;
+        line-height: 26px !important;
+        border-radius: 500px !important;
+
+        &:hover {
+            color: var(--color-primary) !important;
+            background: transparent !important;
+        }
+    }
+}
+
+
+
+
+
+.wp-block-file .wp-block-file__button:hover {
+    color: var(--color-primary) !important;
+}
+
+.blocks-gallery-grid .blocks-gallery-image figcaption,
+.blocks-gallery-grid .blocks-gallery-item figcaption,
+.wp-block-gallery .blocks-gallery-image figcaption,
+.wp-block-gallery .blocks-gallery-item figcaption,
+.wp-block-cover,
+.wp-block-cover-image {
+    border-radius: var(--radius);
+}
+
+.wp-block-cover-image.has-background-dim:not(.has-background-gradient):before,
+.wp-block-cover-image .wp-block-cover__gradient-background,
+.wp-block-cover.has-background-dim:not(.has-background-gradient):before,
+.wp-block-cover .wp-block-cover__gradient-background,
+.wp-block-video video,
+.wp-block-embed__wrapper,
+.wp-embed-responsive .wp-has-aspect-ratio iframe {
+    border-radius: var(--radius);
+}
+
+
+
+
+
+
+.wp-block-button {
+    &.is-style-outline {
+        a {
+            &.wp-block-button__link {
+                &:hover {
+                    background-color: var(--color-primary);
+                    color: var(--color-white);
+                    border-color: var(--color-primary);
+                }
+            }
+        }
+    }
+
+    &.is-style-squared {
+        a {
+            &.wp-block-button__link {
+                border-radius: 0;
+            }
+        }
+    }
+}
+
+
+
+
+.wp-block-button {
+    margin-bottom: 20px;
+}
+
+
+.link-inner {
+    display: inline-block;
+}
+
+
+
+
+
+/* Extra Css Property  */
+
+.has-esell-primary-color {
+    color: var(--color-primary);
+}
+
+.has-esell-secondary-color {
+    color: var(--color-secondary);
+}
+
+.has-esell-tertiary-color {
+    color: var(--color-tertiary);
+}
+
+.has-esell-white-color {
+    color: var(--color-white);
+}
+
+.has-esell-dark-light-color {
+    color: var(--color-extra04);
+}
+
+.has-esell-primary-background-color {
+    background-color: var(--color-primary);
+}
+
+.has-esell-secondary-background-color {
+    background-color: var(--color-secondary);
+}
+
+.has-esell-tertiary-background-color {
+    background-color: var(--color-tertiary);
+}
+
+.has-esell-white-background-color {
+    background-color: var(--color-white);
+}
+
+.has-esell-dark-light-background-color {
+    background-color: var(--color-extra04);
+}
+
+.wp-block-button a.has-esell-primary-color {
+    color: var(--color-primary);
+}
+
+.wp-block-button a.has-esell-secondary-color {
+    color: var(--color-secondary);
+}
+
+.wp-block-button a.has-esell-tertiary-color {
+    color: var(--color-tertiary);
+}
+
+.wp-block-button a.has-esell-white-color {
+    color: var(--color-white);
+}
+
+.wp-block-button a.has-esell-dark-light-color {
+    color: var(--color-extra04);
+}
+
+.wp-block-button .has-esell-primary-background-color {
+    background-color: var(--color-primary);
+}
+
+.wp-block-button .has-esell-secondary-background-color {
+    background-color: var(--color-secondary);
+}
+
+.wp-block-button .has-esell-tertiary-background-color {
+    background-color: var(--color-tertiary);
+}
+
+.wp-block-button .has-esell-white-background-color {
+    background-color: var(--color-white);
+}
+
+.wp-block-button .has-esell-dark-light-background-color {
+    background-color: var(--color-extra04);
+}
+
+
+
+
+
+a:not([href]):hover {
+    color: initial;
+}
+.wp-block-button.is-style-outline a.wp-block-button__link:not([href]):not([tabindex]) {
+	color: var(--color-primary);
+}
+.wp-block-button.is-style-outline a.wp-block-button__link:not([href]):not([tabindex]):hover {
+	color: var(--color-primary);
+}
+
+
+

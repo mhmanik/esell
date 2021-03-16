@@ -1,0 +1,20 @@
+/* Social Share  */
+
+.social-share {
+    @extend %liststyle;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+    a {
+        margin: 10px;
+        color:#050505;
+        display: block;
+        font-size: var(--font-size-b1);
+        line-height: var(--line-height-b3);
+        transition: 0.3s;
+        &:hover {
+            color: var(--color-primary);
+        }
+    }
+}
+

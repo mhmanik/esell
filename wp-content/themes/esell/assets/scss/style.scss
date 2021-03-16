@@ -1,0 +1,106 @@
+/*********************************************************************************
+
+	Template Name: Blogar Personal Blog Template
+	Note: This is style css.
+
+**********************************************************************************/
+
+
+/**************************************************************
+	
+	STYLESHEET INDEXING
+	|
+	|
+	|___ Default Styles
+	|	|
+	|	|___ Reset Styles
+	|	|___ Typography
+	|	|___ Animations
+	|	|___ Utilities
+	|
+	|
+	|___Elements Styles
+	|	|___ Button
+	|	|___ Section Title
+	|
+	|
+	|___Blocks Styles
+	|	|___ Header 
+	|	|___ Navigation 
+	|	|___ Banner
+	|	|___ Footer
+	|
+	|
+	|___ END STYLESHEET INDEXING
+
+***************************************************************/
+
+
+/**************************************
+    Default Styles
+***************************************/
+
+@import 'default/variables';
+@import 'default/mixins';
+@import 'default/reset';
+@import 'default/typography';
+@import 'default/extend';
+@import 'default/animations';
+@import 'default/shortcode';
+@import 'default/spacing';
+@import 'default/common';
+@import 'default/forms';
+
+/**************************************
+	Elements Styles
+***************************************/
+
+@import 'elements/button';
+@import 'elements/slick';
+@import 'elements/breadcrumb';
+@import 'elements/social';
+@import 'elements/newsletter';
+@import 'elements/pagination';
+@import 'elements/price-slider';
+@import 'elements/categories';
+@import 'elements/poster';
+@import 'elements/slider';
+@import 'elements/testimonial';
+
+/**************************************
+	Header Styles
+***************************************/
+
+@import 'header/header-top';
+@import 'header/header';
+@import 'header/nav';
+@import 'header/header-default';
+
+/**************************************
+	Shop Styles
+***************************************/
+
+@import 'shop/header-cart';
+@import 'shop/shop';
+@import 'shop/product-details';
+
+/**************************************
+	Blog Styles
+***************************************/
+
+@import 'blog/blog-list';
+@import 'blog/blog-single';
+@import 'blog/comment';
+@import 'blog/sidebar';
+
+/**************************************
+	Template Styles
+***************************************/
+
+
+/**************************************
+	Footer Styles
+***************************************/
+
+@import 'footer/footer';
+@import 'footer/dark';

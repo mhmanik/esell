@@ -1,0 +1,2375 @@
+.appearance_page_axil_options {
+    /*p.ocdi__button-container {
+        */
+    /*display: none;
+    */
+    /*
+}
+*/
+    /*author info widget*/
+    /* * Type param: Product categories */
+    /* Sub Menu */
+    /** * Redux Notice Remove/Hide */
+    /** * Redux header */
+    /** * Admin Menu */
+    /** * Redux Action Button */
+    /** * Panel Header */
+    /** * Social Share */
+    /** * Input */
+    /** * spacing-input */
+    /** * Container */
+    /** * Color Picker */
+    /** * Button Set */
+    /** * Typography */
+    /** * Select2 drop active */
+    /** * Notice */
+    /** * handle */
+    /** * Background Select */
+    /** * Button */
+    /** * Responsive */
+    /** * wp-admin */
+    /*author info widget*/
+    /*.wp-admin .redux-container .redux-container-switch .switch-options .cb-disable::before{
+         top: 6px;
+         left: 6px;
+    }
+     */
+    /* theme active color */
+    /* demo importer css */
+}
+
+.ocdi__gl .button-primary,
+.ui-dialog-buttonpane .ui-buttonbody {
+    color: #272b3a;
+    background: #f9f9f9;
+}
+
+.appearance_page_axil_options .customize-support #wpcontent {
+    padding-left: 25px;
+}
+
+.appearance_page_axil_options .author_info_widget .button,
+.appearance_page_axil_options .single_banner_widget .button {
+    margin-bottom: 12px;
+}
+
+.appearance_page_axil_options .author_info_widget .image_box img,
+.appearance_page_axil_options .single_banner_widget .image_box img {
+    max-width: 100%;
+}
+
+.appearance_page_axil_options .acf-image-select img.item-image {
+    max-width: 100%;
+}
+
+.appearance_page_axil_options.admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild a .extraIconSubsections {
+    display: block;
+}
+
+.appearance_page_axil_options .mad-custom li {
+    margin: 2px 0;
+}
+
+.appearance_page_axil_options .mad-custom li a {
+    position: relative;
+    display: block;
+    padding: 5px 10px;
+    color: #3858f6;
+    text-decoration: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.appearance_page_axil_options .mad-custom li a.selected {
+    opacity: 0.3;
+}
+
+.appearance_page_axil_options .mad-custom li a.selected:after {
+    position: absolute;
+    top: 50%;
+    margin-top: -9px;
+    right: 10px;
+    content: "\f158";
+    font-family: "dashicons";
+    font-size: 16px;
+}
+
+.appearance_page_axil_options .mad-custom li.top_li>a {
+    padding: 7px 10px;
+    background-color: #02a6e4;
+}
+
+.appearance_page_axil_options .mad-custom li a {
+    background-color: #00aef0;
+    color: #fff;
+}
+
+.appearance_page_axil_options .mad-custom a:hover,
+.appearance_page_axil_options .mad-custom li.top_li>a:hover {
+    background-color: #0089bd;
+}
+
+.appearance_page_axil_options .mad-custom .second_level {
+    margin: 3px 5px 3px 15px;
+}
+
+.appearance_page_axil_options .wrap>.fade,
+.appearance_page_axil_options .wpb_vc_param_value.fade {
+    opacity: 1;
+}
+
+.appearance_page_axil_options .wpb-elements-list-modal .wpb-content-layouts li[data-element="mega_main_menu"] {
+    display: none;
+}
+
+.appearance_page_axil_options .redux-dev-mode-notice-container.redux-dev-qtip {
+    display: none;
+}
+
+.appearance_page_axil_options .rAds {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.appearance_page_axil_options .redux-messageredux-notice {
+    display: none !important;
+}
+
+.appearance_page_axil_options .wrap .redux-notice.notice.redux-message {
+    display: none !important;
+}
+
+.appearance_page_axil_options .theme_option_footer_text {
+    text-align: center;
+}
+
+.appearance_page_axil_options #redux-import-action {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.appearance_page_axil_options .display-inline-block {
+    display: inline-block;
+}
+
+.appearance_page_axil_options .display-block {
+    display: block;
+}
+
+.appearance_page_axil_options .display-flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.appearance_page_axil_options.admin-color-fresh .redux-sidebar .redux-group-menu li.active.hasSubSections a,
+.appearance_page_axil_options .wp-customizer .redux-sidebar .redux-group-menu li.active.hasSubSections a {
+    background: #22b9ff;
+}
+
+.appearance_page_axil_options.admin-color-fresh #redux-header,
+.appearance_page_axil_options .wp-customizer #redux-header {
+    border-color: #22b9ff;
+}
+
+.appearance_page_axil_options .redux-container #redux-header {
+    border-bottom: none;
+    padding: 15px 30px 15px 30px;
+}
+
+.appearance_page_axil_options.admin-color-fresh #redux-header,
+.appearance_page_axil_options .wp-customizer #redux-header,
+.appearance_page_axil_options .redux-container #redux-header {
+    background: #272b3a;
+}
+
+.appearance_page_axil_options.admin-color-fresh .redux-sidebar .redux-group-menu li.hasSubSections a .extraIconSubsections i,
+.appearance_page_axil_options .wp-customizer .redux-sidebar .redux-group-menu li.hasSubSections a .extraIconSubsections i {
+    font-size: 12px;
+}
+
+@-webkit-keyframes admin_menu_gradient {
+
+    0%,
+    100% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+@keyframes admin_menu_gradient {
+
+    0%,
+    100% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+.appearance_page_axil_options .redux-main .form-table-section-indented>tbody>tr:first-child {
+    display: none;
+}
+
+.appearance_page_axil_options #adminmenu .toplevel_page_theme_name__opt_options {
+    background: linear-gradient(-45deg, #b20d97, #ff0d7e, #015cb9, #22b9ff) !important;
+    -webkit-animation: admin_menu_gradient 15s ease infinite;
+    animation: admin_menu_gradient 15s ease infinite;
+    background-size: 400% 400% !important;
+    color: #fff !important;
+}
+
+.appearance_page_axil_options .redux-main #redux-sticky {
+    display: block !important;
+}
+
+.appearance_page_axil_options .redux-main #redux-sticky #info_bar {
+    height: 130px;
+    background: #f9f9f9;
+}
+
+.appearance_page_axil_options .redux-main #redux-sticky #info_bar .redux-action_bar {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.appearance_page_axil_options .redux-main #redux-footer-sticky #info_bar .redux-action_bar {
+    margin-top: 0px;
+}
+
+.appearance_page_axil_options .redux-container .sticky-footer-fixed {
+    background: #f3f3f3;
+    border-top: none !important;
+    box-shadow: none !important;
+    position: static !important;
+}
+
+.appearance_page_axil_options .redux-container .redux-main .redux-action_bar input {
+    background: no-repeat;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    line-height: 21px;
+    padding: 0;
+    margin: 0 10px;
+    padding: 10px 30px;
+    background: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    color: #32394d;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.appearance_page_axil_options div#redux-footer {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    background: #f9f9f9 !important;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.appearance_page_axil_options .redux-container #redux-footer {
+    border-top: none;
+}
+
+.appearance_page_axil_options .redux-container .redux-action_bar .spinner {
+    float: right;
+    margin-top: 0;
+}
+
+.appearance_page_axil_options .redux-container .redux-main .redux-action_bar input.button-primary,
+.appearance_page_axil_options .redux-container .redux-main .redux-action_bar input.button-primary:disabled,
+.appearance_page_axil_options .redux-container .redux-main .redux-action_bar input.button-primary[disabled] {
+    background-color: #3858f6 !important;
+    color: #fff !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.appearance_page_axil_options .redux-container .redux-main .redux-action_bar input#redux-defaults-section,
+.appearance_page_axil_options #redux-defaults-section-sticky,
+.appearance_page_axil_options #redux-defaults-section-top,
+.appearance_page_axil_options #redux-defaults-section-bottom {
+    background-color: #ff9c4d;
+    color: #fff;
+}
+
+
+.appearance_page_axil_options .redux-container .redux-main .redux-action_bar input#redux-defaults,
+.appearance_page_axil_options #redux-defaults-sticky,
+.appearance_page_axil_options #redux-defaults-top,
+.appearance_page_axil_options #redux-defaults-bottom {
+    background-color: #ff2a3d;
+    color: #fff;
+}
+
+.appearance_page_axil_options .redux-container .redux-main .redux-action_bar input:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+    -webkit-transform: translateY(-1px);
+    -moz-transform: translateY(-1px);
+    -ms-transform: translateY(-1px);
+    -o-transform: translateY(-1px);
+}
+
+.appearance_page_axil_options .redux-container .redux-group-tab>h2 {
+    margin: 0;
+    padding: 40px 15px;
+    background-color: #f8f8f8;
+    /*background-image: url('../images/optionframework/redux-panel-header.png');*/
+    background-repeat: no-repeat;
+    background-position: right center;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .redux-group-tab>h2 {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 40px;
+    position: absolute;
+    top: 43px;
+    line-height: 58px;
+    font-weight: 500 !important;
+    font-family: 'Hind Vadodara', sans-serif;
+    color: #100727;
+}
+
+.appearance_page_axil_options .redux-container #info_bar {
+    box-shadow: none;
+    border-bottom: none;
+}
+
+.appearance_page_axil_options .description,
+.appearance_page_axil_options p.description,
+.appearance_page_axil_options span.description {
+    font-size: 16px !important;
+    line-height: 26px !important;
+    color: #958fa3;
+    font-style: normal;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.appearance_page_axil_options.admin-color-fresh #redux-footer #redux-share a,
+.appearance_page_axil_options .wp-customizer #redux-footer #redux-share a {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    background: #22b9ff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s;
+    margin-right: 5px;
+}
+
+.appearance_page_axil_options.admin-color-fresh #redux-footer #redux-share a i,
+.appearance_page_axil_options .wp-customizer #redux-footer #redux-share a i {
+    text-shadow: 0px 3px 30px rgba(0, 0, 0, 0.2);
+}
+
+.appearance_page_axil_options.admin-color-fresh #redux-footer #redux-share a:hover,
+.appearance_page_axil_options .wp-customizer #redux-footer #redux-share a:hover {
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.20);
+}
+
+.appearance_page_axil_options .redux-container #redux-footer #redux-share {
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container input[type=text],
+.appearance_page_axil_options.wp-admin .redux-container input[type=email],
+.appearance_page_axil_options.wp-admin .redux-container .redux-typography-container .input_wrapper input.mini,
+.appearance_page_axil_options.wp-admin .redux-container .select2-choice {
+    min-width: 110px !important;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    background-color: #fff;
+    background-image: none !important;
+    border-radius: 4px;
+    box-shadow: none;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-align: left;
+    box-shadow: 0 0 1px rgba(211, 211, 211, 0.5);
+    border: 1px solid #e2e2e2;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container input[type=text]:hover,
+.appearance_page_axil_options.wp-admin .redux-container input[type=text]:focus,
+.appearance_page_axil_options.wp-admin .redux-container input[type=text]:active,
+.appearance_page_axil_options.wp-admin .redux-container input[type=email]:hover,
+.appearance_page_axil_options.wp-admin .redux-container input[type=email]:focus,
+.appearance_page_axil_options.wp-admin .redux-container input[type=email]:active,
+.appearance_page_axil_options.wp-admin .redux-container .redux-typography-container .input_wrapper input.mini:hover,
+.appearance_page_axil_options.wp-admin .redux-container .redux-typography-container .input_wrapper input.mini:focus,
+.appearance_page_axil_options.wp-admin .redux-container .redux-typography-container .input_wrapper input.mini:active,
+.appearance_page_axil_options.wp-admin .redux-container .select2-choice:hover,
+.appearance_page_axil_options.wp-admin .redux-container .select2-choice:focus,
+.appearance_page_axil_options.wp-admin .redux-container .select2-choice:active {
+    background-color: #fff;
+    box-shadow: none;
+    outline: none;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container input[type=text]:focus,
+.appearance_page_axil_options.wp-admin .redux-container input[type=text]:active,
+.appearance_page_axil_options.wp-admin .redux-container input[type=email]:focus,
+.appearance_page_axil_options.wp-admin .redux-container input[type=email]:active,
+.appearance_page_axil_options.wp-admin .redux-container .redux-typography-container .input_wrapper input.mini:focus,
+.appearance_page_axil_options.wp-admin .redux-container .redux-typography-container .input_wrapper input.mini:active,
+.appearance_page_axil_options.wp-admin .redux-container .select2-choice:focus,
+.appearance_page_axil_options.wp-admin .redux-container .select2-choice:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.appearance_page_axil_options .redux-container .redux-main .input-append .add-on,
+.appearance_page_axil_options .redux-container .redux-main .input-prepend .add-on {
+    height: 50px;
+    font-size: 16px;
+    line-height: 48px;
+    padding: 0 12px !important;
+    border: none;
+    background: #3858f6;
+    color: #fff;
+    text-shadow: none;
+}
+
+.appearance_page_axil_options label.cb-disable {
+    left: -1px;
+    width: 53px !important;
+    top: 0px;
+}
+
+.appearance_page_axil_options .redux-container .redux-main .input-prepend input {
+    border-radius: 0 4px 4px 0 !important;
+    /* padding-left: 0 !important; */
+}
+
+.appearance_page_axil_options .redux-container #redux-form-wrapper .redux-main,
+.appearance_page_axil_options .redux-container .redux-form-wrapper .redux-main {
+    margin-left: 250px !important;
+    border-left: none;
+    background: #f9f9f9;
+    padding: 10px 60px 20px 30px;
+}
+
+.appearance_page_axil_options.wp-admin .redux-sidebar {
+    position: relative;
+    z-index: 3;
+    border: none;
+    background-color: #fff;
+}
+
+.appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 30px 0 0;
+}
+
+.appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu li {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: transparent;
+}
+
+.appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu li a {
+    display: block;
+    width: 100% !important;
+    padding: 15px 20px 15px 30px;
+    margin: 0;
+    border: none;
+    position: relative;
+    font-size: 16px;
+    font-weight: 400 !important;
+    opacity: 1;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background: transparent;
+}
+
+.appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu li a i {
+    top: 50%;
+    font-size: 16px;
+    color: #272b3a;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu li a span {
+    padding-left: 23px;
+}
+.appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu li a {
+    color: #272b3a !important;
+}
+.appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu li a:hover {
+    background-color: transparent !important;
+    color: #3858f6 !important;
+}
+
+.appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu li a:hover i {
+    color: #3858f6;
+}
+
+.appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu li.active a {
+    background-color: #3858f6 !important;
+    color: #fff !important;
+}
+
+.appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu li.active a i {
+    color: #fff !important;
+}
+
+.appearance_page_axil_options.wp-admin .redux-sidebar .redux-sidebar-head {
+    margin: 0;
+}
+
+.appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu li.hasSubSections.activeChild>a {
+    background-color: #3858f6 !important;
+    color: #fff !important;
+    text-shadow: none;
+}
+
+.appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu li.hasSubSections.activeChild a i {
+    color: #fff;
+}
+
+.appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu li.hasSubSections .extraIconSubsections {
+    position: relative;
+    top: 3px;
+}
+
+.appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li a {
+    padding: 17px 20px 17px 30px !important;
+}
+
+.appearance_page_axil_options.admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li.active a,
+.appearance_page_axil_options .wp-customizer .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li.active a {
+    background: transparent;
+    color: #272b3a;
+    text-shadow: none;
+}
+
+.appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li a:hover,
+.appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li a:hover i{
+    color: #3858f6 !important;
+}
+
+.redux-container .ui-button .ui-button-text, .control-section-redux .ui-button .ui-button-text, .control-panel-redux .ui-button .ui-button-text, .redux-metabox .ui-button .ui-button-text {
+    display: block;
+    padding: 0;
+}
+/*.appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li a i {*/
+/*    display: none;*/
+/*}*/
+
+.appearance_page_axil_options.admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li a,
+.appearance_page_axil_options .wp-customizer .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li a {
+    background: transparent;
+    color: #272b3a !important;
+    text-shadow: none;
+}
+.appearance_page_axil_options.admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li a i,
+.appearance_page_axil_options .wp-customizer .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li a i{
+    color: #272b3a;
+}
+
+.appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li.active a i {
+    color: #3858f6 !important;
+}
+
+.appearance_page_axil_options.wp-admin .postbox-container #side-sortables .redux-main:before {
+    content: none;
+}
+
+.appearance_page_axil_options.wp-admin .postbox-container #side-sortables .redux-main .form-table tr>td {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.appearance_page_axil_options.wp-admin .postbox-container #side-sortables .redux-container .redux-group-tab {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.appearance_page_axil_options.wp-admin .postbox-container #side-sortables .redux_field_th,
+.appearance_page_axil_options.wp-admin .postbox-container #side-sortables fieldset {
+    display: block;
+    width: 100%;
+}
+
+.appearance_page_axil_options.wp-admin .redux-main .form-table tr>th {
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+.appearance_page_axil_options.wp-admin .redux-main .form-table tr>td {
+    padding: 30px 30px 30px;
+    vertical-align: middle;
+}
+
+.appearance_page_axil_options .redux-container .redux_field_th {
+    font-weight: 600;
+    padding: 0;
+    display: block;
+    color: #32394d;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.appearance_page_axil_options .redux-container .redux-main span.description,
+.appearance_page_axil_options .redux-container .redux-main .field-desc {
+    color: #958fa3;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 15px;
+    font-family: 'Yantramanav', sans-serif;
+    display: block;
+}
+
+.appearance_page_axil_options .redux-container .redux-group-tab {
+    margin-bottom: 0;
+}
+
+.appearance_page_axil_options .redux-container .redux-main .form-table tr {
+    background-color: #fff;
+    border: 1px solid #e2e2e2;
+    border-radius: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.appearance_page_axil_options .redux-container .redux-main tr.fold.hide {
+    display: none !important;
+}
+
+.appearance_page_axil_options .redux-container .redux-main tr.fold {
+    display: flex !important;
+}
+
+.appearance_page_axil_options .redux-main #redux-sticky {
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.appearance_page_axil_options .redux-main #redux-footer-sticky {
+    margin-right: 0;
+}
+
+.appearance_page_axil_options .redux-container .redux-main .form-table tr:first-child th,
+.appearance_page_axil_options .redux-container .redux-main .form-table tr:first-child td {
+    padding-top: 30px;
+    width: 100%;
+}
+
+.appearance_page_axil_options .redux-container .redux-main .redux-field-container {
+    padding: 0;
+    position: relative;
+}
+
+.appearance_page_axil_options .redux-sidebar {
+    width: 250px;
+}
+
+.appearance_page_axil_options.admin-color-fresh .redux-sidebar .redux-group-menu li.active.hasSubSections ul.subsection li a:hover,
+.appearance_page_axil_options.admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li a:hover,
+.appearance_page_axil_options .wp-customizer .redux-sidebar .redux-group-menu li.active.hasSubSections ul.subsection li a:hover,
+.appearance_page_axil_options .wp-customizer .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li a:hover {
+    background: transparent;
+    color: #3858f6;
+}
+
+.appearance_page_axil_options .redux-group-menu li.activeChild.hasSubSections ul.subsection li.active a:hover {
+    color: #3858f6 !important;
+}
+
+.appearance_page_axil_options.admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li.hasIcon a {
+    position: relative;
+    padding-left: 35px !important;
+}
+
+.appearance_page_axil_options.admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li.hasIcon.active {
+    position: relative;
+    background: #3858f615;
+}
+
+.appearance_page_axil_options.admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li.hasIcon.active a {
+    color: #3858f6 !important;
+}
+
+.appearance_page_axil_options.admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li.hasIcon.active::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #3858f6 !important;
+    opacity: 1;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.appearance_page_axil_options.admin-color-fresh .redux-sidebar .redux-group-menu li.active.hasSubSections .active a:after,
+.appearance_page_axil_options.admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild.hasSubSections .active a:after,
+.appearance_page_axil_options .wp-customizer .redux-sidebar .redux-group-menu li.active.hasSubSections .active a:after,
+.appearance_page_axil_options .wp-customizer .redux-sidebar .redux-group-menu li.activeChild.hasSubSections .active a:after {
+    display: none;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container button.wp-color-result,
+.appearance_page_axil_options.wp-admin .cmb2-metabox button.wp-color-result,
+.appearance_page_axil_options.wp-admin .sp-replacer.redux-color-rgba {
+    width: 190px;
+    border-radius: 4px;
+    height: 48px !important;
+    border: none !important;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    margin-right: 6px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container button.wp-color-result:before.wp-admin .sp-replacer.redux-color-rgba:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(../images/optionframework/color-picker.png);
+    content: "";
+    width: 50px;
+    height: 43px;
+    z-index: 9;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .sp-preview {
+    width: 50px;
+    height: 100%;
+    border: none;
+    margin: 0;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .sp-dd {
+    border: none;
+    height: 100%;
+    line-height: 45px;
+    padding: 0;
+    width: calc(100% - 50px);
+    padding: 0px 15px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container a.wp-color-result {
+    width: 110px;
+    height: 43px;
+    padding-left: 45px;
+    background-color: #f3f3f3;
+    border-color: #eceaea;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.appearance_page_axil_options .redux-main .wp-color-result-text {
+    height: 50px;
+    line-height: 50px !important;
+    margin: 0;
+    padding: 0;
+    left: 70px;
+    border: none;
+    box-shadow: none;
+    display: inline-block;
+    padding: 0 20px;
+    position: absolute;
+    z-index: 1;
+    background: #f9f9f9;
+    color: #010101;
+    font-size: 16px;
+    top: 0;
+    right: 0;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 500;
+}
+
+.appearance_page_axil_options.wp-admin .wp-picker-container {
+    display: inline-block;
+    margin-bottom: 0 !important;
+}
+
+.appearance_page_axil_options.wp-admin .redux-main .color-transparency-check {
+    font-size: 16px;
+    margin-top: 0 !important;
+    position: absolute;
+    top: 7px;
+    left: 190px;
+    line-height: 40px;
+    margin-left: 19px !important;
+    height: 42px;
+    padding: 4px;
+    border-radius: 4px;
+    width: 176px;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 500;
+}
+
+.appearance_page_axil_options.wp-admin .redux-main .color-transparency-check input[type="checkbox"] {
+    position: relative;
+    margin-left: 4px;
+    margin-right: 10px;
+}
+
+.appearance_page_axil_options.wp-admin .redux-main .color-transparency-check input[type="checkbox"]::before {
+    position: absolute;
+    left: -5px;
+    top: -4px;
+    content: "" !important;
+    margin: 0 !important;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #e2e2e2;
+    background-color: #f9f9f9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    opacity: 1;
+    transition: 0.3s;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 10;
+}
+
+.appearance_page_axil_options.wp-admin .redux-main .color-transparency-check input[type="checkbox"]:checked:before {
+    content: "" !important;
+    margin: 0 !important;
+    background-image: url(../../images/optionframework/check-icon.png);
+    background-position: 0 1px;
+    background-color: #3858f6;
+    border-color: #3858f6 !important;
+    z-index: 15;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .wp-color-result:after {
+    line-height: 43px;
+    border-color: #dedede;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .wp-color-result:hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .wp-color-result:hover:after {
+    border-color: #dedede;
+}
+
+.appearance_page_axil_options .redux-container .ui-buttonset .ui-button {
+    background: none !important;
+    border: none;
+    box-shadow: none;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 4px !important;
+    padding: 0 20px !important;
+    margin: 0 !important;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    text-shadow: none !important;
+    margin-right: 3px !important;
+}
+
+.appearance_page_axil_options .redux-container .ui-buttonset .ui-button:last-child {
+    margin-right: 0px !important;
+}
+
+.appearance_page_axil_options.admin-color-fresh .redux-field-container .ui-buttonset .ui-state-active,
+.appearance_page_axil_options .redux-container .ui-buttonset .ui-button:hover {
+    background: transparent !important;
+    color: #272b3a !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.appearance_page_axil_options .redux-container .ui-buttonset {
+    display: inline-block;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.appearance_page_axil_options .redux-container-image_select .redux-image-select-selected {
+    background: none !important;
+}
+
+.appearance_page_axil_options .redux-container-image_select li.redux-image-select+li.redux-image-select {
+    margin-top: 30px !important;
+}
+
+.appearance_page_axil_options .redux-container-image_select .redux-image-select img,
+.appearance_page_axil_options .redux-container-image_select .redux-image-select-selected img,
+.appearance_page_axil_options .redux-container-image_select .redux-image-select .tiles,
+.appearance_page_axil_options .redux-container-image_select .redux-image-select-selected .tiles {
+    border-width: 3px;
+}
+
+.appearance_page_axil_options.admin-color-fresh .redux-container-image_select .redux-image-select-selected img,
+.appearance_page_axil_options .wp-customizer .redux-container-image_select .redux-image-select-selected img {
+    border-color: #3858f6 !important;
+}
+
+.appearance_page_axil_options fieldset#papr_option-papr_select_footer_template li.redux-image-select label.redux-image-select span,
+.appearance_page_axil_options fieldset#papr_option-papr_select_header_template li.redux-image-select label.redux-image-select span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.appearance_page_axil_options.wp-admin .redux-main .redux-typography-container .input_wrapper,
+.appearance_page_axil_options.wp-admin .redux-main .redux-typography-container .select_wrapper {
+    height: 100px !important;
+    margin-bottom: 20px;
+}
+
+.appearance_page_axil_options .redux-main .redux-typography-container label {
+    color: #010101;
+    font-size: 16px !important;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.appearance_page_axil_options .redux-main .redux-typography-container .picker-wrapper label {
+    margin-bottom: 20px !important;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .select2-container .select2-choice {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    background-color: #fff;
+    background-image: none !important;
+    -webkit-appearance: none;
+    border-radius: 4px !important;
+    padding: 0px 20px !important;
+    margin: 0 !important;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    text-shadow: none !important;
+    margin-right: 3px !important;
+    border: 1px solid #e2e2e2;
+}
+
+.appearance_page_axil_options .select2-container .select2-choice>.select2-chosen {
+    margin-right: 26px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: none;
+    width: auto;
+    color: #272b3a;
+    font-size: 15px;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .select2-arrow {
+    border: none;
+    background-color: transparent;
+    background-image: none;
+    text-align: center;
+    right: 0;
+    width: 25px;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .select2-arrow b {
+    background-image: none !important;
+    position: relative;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .select2-search-choice-close {
+    top: 15px;
+    right: 45px;
+    padding: 0 10px;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .select2-container .select2-choice abbr,
+.appearance_page_axil_options.wp-admin .redux-container .select2-arrow b,
+.appearance_page_axil_options.wp-admin .select2-search {
+    background-image: none !important;
+    display: inline-block;
+    font: normal normal normal 14px/1 'Elusive-Icons';
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .select2-container .select2-choice abbr::before,
+.appearance_page_axil_options.wp-admin .redux-container .select2-arrow b:before,
+.appearance_page_axil_options.wp-admin .select2-search::before {
+    content: "\f1dd";
+    top: 2px;
+    right: -16px;
+    font-size: 12px;
+    position: absolute;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .select2-arrow b:before {
+    content: "\f130";
+    top: 18px;
+    right: 10px;
+    transform: rotate(90deg);
+    font-size: 12px;
+}
+
+.appearance_page_axil_options.wp-admin .select2-search::before {
+    content: "\f1ee";
+    right: 0;
+    top: 10px;
+}
+
+.appearance_page_axil_options .redux-main .redux-typography-container .select_wrapper .redux-typography,
+.appearance_page_axil_options .redux-container .redux-main .input-append {
+    height: 80px !important;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .redux-typography-container .input_wrapper input.mini {
+    height: 42px;
+    line-height: 42px;
+    border: 1px solid #22b9ff;
+    background: #fff;
+    /*box-shadow: 0 3px 7px rgba(0,0,0,0.15) inset;
+    */
+    min-width: 100px !important;
+    width: 100%;
+}
+
+.appearance_page_axil_options.wp-admin .redux-main .redux-typography-container .input_wrapper {
+    width: 30%;
+    white-space: nowrap;
+}
+
+.appearance_page_axil_options .redux-container #redux-header .display_header {
+    float: left;
+    margin: 10px 0;
+}
+
+.appearance_page_axil_options .redux-container #redux-header .display_header h2 {
+    font-style: normal;
+    padding-right: 0px;
+    margin: 0 !important;
+    font-size: 28px !important;
+    line-height: 30px !important;
+    color: #fff;
+    background-image: none !important;
+    background-size: auto;
+    height: auto !important;
+    padding-left: 0;
+
+
+}
+
+.appearance_page_axil_options .redux-container #redux-header .display_header>span {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #ddd;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.appearance_page_axil_options .redux-container #redux-header .display_header>span:before {
+    content: "V";
+    padding-right: 3px;
+    font-size: 11px;
+}
+
+
+.appearance_page_axil_options .redux-container #redux-header .display_header>span.search-wrapper {
+    display: none;
+}
+
+.appearance_page_axil_options.wp-admin .select2-drop-active {
+    border: 1px solid #e2e2e2 !important;
+    padding: 15px 20px;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+.appearance_page_axil_options.wp-admin .select2-search input {
+    padding: 10px 0 !important;
+    background-image: none !important;
+    margin-bottom: 10px;
+    border-radius: 0;
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.appearance_page_axil_options.wp-admin .select2-search input:focus {
+    box-shadow: none !important;
+}
+
+.appearance_page_axil_options.wp-admin .select2-drop-active .select2-results .select2-highlighted,
+.appearance_page_axil_options.wp-admin .select2-drop-active .wp-customizer .select2-results .select2-highlighted {
+    border-radius: 2px;
+    background-color: #3858f6;
+}
+
+.appearance_page_axil_options.wp-admin .select2-drop-active .select2-result-label {
+    padding: 5px 7px;
+}
+
+.appearance_page_axil_options.wp-admin .select2-drop-active.select2-drop-above {
+    border-radius: 4px;
+}
+
+.appearance_page_axil_options.wp-admin .select2-drop-active:before {
+    display: none;
+}
+
+.appearance_page_axil_options.wp-admin .select2-drop-active.select2-drop-above:before {
+    display: none;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .saved_notice,
+.appearance_page_axil_options.wp-admin .redux-container .redux-field-warnings,
+.appearance_page_axil_options.wp-admin .redux-container .redux-field-errors,
+.appearance_page_axil_options.wp-admin .redux-container .redux-save-warn {
+    padding: 30px 20px;
+    border-radius: 0;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .notice-green,
+.appearance_page_axil_options.wp-admin .redux-container .notice-red,
+.appearance_page_axil_options.wp-admin .redux-container .notice-yellow {
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .notice-green {
+    color: #3858f6;
+    background: rgba(13, 194, 112, 0.2);
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .notice-red {
+    color: #ff2a3d;
+    background: rgba(255, 61, 42, 0.2);
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .notice-yellow {
+    color: #ff9c4d;
+    background: rgba(255, 156, 77, 0.2);
+}
+
+.appearance_page_axil_options.wp-admin .noUi-handle {
+    background: #fff !important;
+    border: none;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.appearance_page_axil_options.wp-admin .noUi-background {
+    background: #f1f1f1;
+    box-shadow: none;
+}
+
+.appearance_page_axil_options.admin-color-fresh .noUi-connect,
+.appearance_page_axil_options .wp-customizer .noUi-connect {
+    background-color: #22b9ff !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    border: none;
+    border-radius: 2px;
+}
+
+.appearance_page_axil_options.wp-admin .noUi-handle:before,
+.appearance_page_axil_options.wp-admin .noUi-handle:after {
+    background: #22b9ff;
+}
+
+.appearance_page_axil_options .redux-main .redux-container-background .select2-container {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .media_upload_button,
+.appearance_page_axil_options.wp-admin .redux-container .remove-image,
+.appearance_page_axil_options.wp-admin .redux-container .ui-button,
+.appearance_page_axil_options.wp-admin .redux-container .button {
+    height: auto;
+    line-height: 36px;
+    border: none;
+    box-shadow: none;
+    padding: 0 20px;
+    transition: 0.3s;
+    font-size: 16px;
+    background: #ddd;
+}
+
+.appearance_page_axil_options .redux-main .upload_button_div {
+    margin-top: 10px;
+}
+
+.appearance_page_axil_options .redux-main .wp-picker-clear:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.appearance_page_axil_options .wp-picker-open+.wp-picker-input-wrap {
+    display: block;
+    margin-top: 10px;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .ui-buttonset .ui-button {
+    height: auto !important;
+    line-height: initial !important;
+    padding-left: 30px !important;
+    padding-right: 0 !important;
+    margin-right: 25px !important;
+    position: relative;
+    padding-top: 1px;
+}
+
+.appearance_page_axil_options .redux-field-container.redux-container-button_set .ui-buttonset .ui-state-default:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    border: 2px solid #d3d3d3;
+    border-radius: 50%;
+}
+
+.appearance_page_axil_options .redux-field-container.redux-container-button_set .ui-buttonset .ui-state-active:before,
+.appearance_page_axil_options .redux-field-container.redux-container-button_set .ui-buttonset .ui-state-active:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 17px;
+    width: 17px;
+    border: 2px solid #3858f6 !important;
+    border-radius: 50%;
+}
+
+.appearance_page_axil_options .redux-field-container.redux-container-button_set .ui-buttonset .ui-state-active:after {
+    top: 4px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    background: #3858f6;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .media_upload_button.hidden,
+.appearance_page_axil_options.wp-admin .redux-container .remove-image.hide,
+.appearance_page_axil_options.wp-admin .redux-container .remove-image.hidden,
+.appearance_page_axil_options.wp-admin .redux-container .media_upload_button.hide,
+.appearance_page_axil_options.wp-admin .redux-container .ui-button.hidden,
+.appearance_page_axil_options.wp-admin .redux-container .button.hide,
+.appearance_page_axil_options.wp-admin .redux-container .button.hidden,
+.appearance_page_axil_options.wp-admin .redux-container .ui-button.hide {
+    display: none;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .remove-image span,
+.appearance_page_axil_options.wp-admin .redux-container .media_upload_button span {
+    line-height: 1;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .media_upload_button:hover,
+.appearance_page_axil_options.wp-admin .redux-container .button:hover {
+    text-shadow: none;
+    box-shadow: none;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .redux-remove-background:hover,
+.appearance_page_axil_options.wp-admin .redux-container .remove-image:hover {
+    background-color: #f50057 !important;
+    border-color: transparent !important;
+    text-shadow: none;
+    color: #fff;
+    box-shadow: none;
+}
+
+.appearance_page_axil_options .redux-container-import_export .button-secondary,
+.appearance_page_axil_options .redux-container-import_export .button-primary {
+    background: no-repeat;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    line-height: 48px;
+    padding: 0;
+    margin: 0 10px;
+    height: 48px;
+    padding: 0 30px;
+    background: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    color: #272b3a;
+    border-radius: 4px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    border: 1px solid #e2e2e2;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container #redux-defaults-section:hover,
+.appearance_page_axil_options .redux-container-import_export .button-secondary:hover {
+    background-color: #3858f6;
+    color: #fff;
+}
+
+.appearance_page_axil_options .wp-media-buttons span.wp-media-buttons-icon {
+    display: inline-block;
+    vertical-align: middle !important;
+    margin: 0px 5px 0 0 !important;
+    padding-top: 4px !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .button:hover span.wp-media-buttons-icon {
+    color: #fff;
+}
+
+.appearance_page_axil_options .redux-container .redux-main .form-table tr:last-child {
+    border-bottom: 1px solid #e2e2e2 !important;
+}
+
+@media screen and (max-width: 1400px) {
+    .appearance_page_axil_options.wp-admin .redux-main {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .appearance_page_axil_options.wp-admin .redux-main .redux-sidebar {
+        width: 200px;
+    }
+
+    .appearance_page_axil_options.wp-admin .redux-main .redux-main {
+        margin-left: 200px;
+    }
+
+    .appearance_page_axil_options.wp-admin .redux-main .form-table tr th,
+    .appearance_page_axil_options.wp-admin .redux-main .form-table tr td {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .appearance_page_axil_options.wp-admin .redux-main .form-table tr fieldset .select2-container {
+        width: 100% !important;
+    }
+
+    .appearance_page_axil_options.wp-admin .redux-container input[type=text],
+    .appearance_page_axil_options.wp-admin .redux-container input[type=email],
+    .appearance_page_axil_options.wp-admin .redux-container .redux-typography-container .input_wrapper input.mini,
+    .appearance_page_axil_options.wp-admin .redux-container .field-spacing-input,
+    .appearance_page_axil_options.wp-admin .redux-container .select2-choice {
+        min-width: 75px !important;
+    }
+
+    .appearance_page_axil_options.wp-admin .redux-main .form-wrap p,
+    .appearance_page_axil_options.wp-admin .redux-main p.description,
+    .appearance_page_axil_options.wp-admin .redux-main p.help,
+    .appearance_page_axil_options.wp-admin .redux-main span.description {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .appearance_page_axil_options.wp-admin .redux-main .redux-field-container {
+        padding-top: 20px !important;
+    }
+
+    .appearance_page_axil_options.admin-color-fresh #redux-footer #redux-share a,
+    .appearance_page_axil_options .wp-customizer #redux-footer #redux-share a {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        width: 30px;
+        height: 30px;
+        background: #22b9ff;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 3px;
+        color: #fff;
+        font-size: 14px;
+        transition: 0.3s;
+        margin-right: 2px;
+    }
+
+    .appearance_page_axil_options .redux-container .redux-main .redux-action_bar input {
+        line-height: 45px;
+        height: 45px;
+        padding: 0 25px;
+    }
+}
+
+@media screen and (max-width: 1191px) {
+    .appearance_page_axil_options.wp-admin .redux-sidebar {
+        width: 185px !important;
+    }
+
+    .appearance_page_axil_options.wp-admin .redux-main {
+        margin-left: 185px !important;
+    }
+
+    .appearance_page_axil_options.wp-admin .postbox .inside,
+    .appearance_page_axil_options.wp-admin .stuffbox .inside {
+        font-size: 13px;
+    }
+
+    .appearance_page_axil_options.wp-admin .redux-main .redux-typography-container .input_wrapper {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .appearance_page_axil_options .redux-container .ui-buttonset .ui-button {
+        margin: 3px !important;
+    }
+
+    .appearance_page_axil_options.admin-color-fresh #redux-footer #redux-share a,
+    .appearance_page_axil_options .wp-customizer #redux-footer #redux-share a {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        width: 30px;
+        height: 30px;
+        background: #22b9ff;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 3px;
+        color: #fff;
+        font-size: 14px;
+        transition: 0.3s;
+        margin-right: 2px;
+    }
+
+    .appearance_page_axil_options .redux-container .redux-main .redux-action_bar input {
+        line-height: 32px;
+        height: 32px;
+        padding: 0 15px;
+        margin: 0 3px;
+        font-size: 12px;
+    }
+
+    .appearance_page_axil_options .redux-main #redux-sticky #info_bar {
+        height: 60px;
+    }
+
+    .appearance_page_axil_options div#redux-footer {
+        padding-top: 8px !important;
+        padding-bottom: 8px !important;
+        padding-left: 0 !important;
+        padding-right: 10px !important;
+    }
+
+    .appearance_page_axil_options.wp-admin .redux-main .color-transparency-check input[type="checkbox"]::before {
+        width: 27px;
+        height: 27px;
+    }
+
+    .appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li a {
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu li {
+        font-size: 12px;
+    }
+
+    .appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu li a span {
+        padding-left: 28px;
+    }
+
+    .appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-tab-link-a i {
+        font-size: 12px;
+    }
+
+    .appearance_page_axil_options .redux-container .ui-buttonset .ui-button {
+        margin: 3px !important;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .appearance_page_axil_options.wp-admin .wp-core-ui .quicktags-toolbar input.button.button-small {
+        padding: 0 0.5em;
+        height: 30px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .appearance_page_axil_options.wp-admin .redux-sidebar {
+        width: 45px !important;
+    }
+
+    .appearance_page_axil_options .redux-container .redux-form-wrapper .redux-main {
+        margin-left: 45px !important;
+    }
+
+    .appearance_page_axil_options.wp-admin .redux-sidebar .redux-group-menu li a {
+        width: 45px;
+        height: 45px;
+        text-align: center;
+        padding: 0;
+    }
+}
+
+.appearance_page_axil_options .wrap .notice {
+    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.appearance_page_axil_options.wp-admin ul.thumbnails.image_picker_selector {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    max-height: 280px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.appearance_page_axil_options.wp-admin ul.thumbnails.image_picker_selector li {
+    width: calc(25% - 10px);
+    margin: 0 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.appearance_page_axil_options.wp-admin ul.thumbnails.image_picker_selector li .thumbnail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    padding: 5px;
+    position: relative;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #fff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.appearance_page_axil_options.wp-admin ul.thumbnails.image_picker_selector li .thumbnail:before {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    border: 1px solid #22b9ff;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.appearance_page_axil_options.wp-admin ul.thumbnails.image_picker_selector li .thumbnail p {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 4px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.appearance_page_axil_options.wp-admin ul.thumbnails.image_picker_selector li .thumbnail .thumbnail-tooltip {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    position: absolute;
+    right: -1px;
+    bottom: -1px;
+    z-index: 3;
+    border-radius: 3px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 9px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.appearance_page_axil_options.wp-admin ul.thumbnails.image_picker_selector li .thumbnail.selected {
+    -webkit-transform: translate3d(0, -1px, 0);
+    transform: translate3d(0, -1px, 0);
+    border-color: #22b9ff;
+    background-color: transparent;
+    -webkit-box-shadow: 0 5px 20px -5px rgba(27, 188, 155, 0.8);
+    box-shadow: 0 5px 20px -5px rgba(27, 188, 155, 0.8);
+}
+
+.appearance_page_axil_options.wp-admin ul.thumbnails.image_picker_selector li .thumbnail.selected:before {
+    border-width: 2px;
+    opacity: 1;
+}
+
+.appearance_page_axil_options.wp-admin ul.thumbnails.image_picker_selector li .thumbnail.selected p {
+    top: 3px;
+    left: 3px;
+    bottom: 3px;
+    right: 3px;
+    background-color: transparent;
+    opacity: 1;
+    visibility: visible;
+}
+
+.appearance_page_axil_options.wp-admin ul.thumbnails.image_picker_selector li .thumbnail:hover {
+    border-color: #22b9ff;
+}
+
+.appearance_page_axil_options.wp-admin ul.thumbnails.image_picker_selector li .thumbnail:hover p {
+    opacity: 1;
+    visibility: visible;
+}
+
+.appearance_page_axil_options.wp-admin ul.thumbnails.image_picker_selector li img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.appearance_page_axil_options .author_info_widget .button,
+.appearance_page_axil_options .single_banner_widget .button {
+    margin-bottom: 12px;
+}
+
+.appearance_page_axil_options .author_info_widget .image_box img,
+.appearance_page_axil_options .single_banner_widget .image_box img {
+    max-width: 100%;
+}
+
+.appearance_page_axil_options .redux-container .redux-main .form-table tr th,
+.appearance_page_axil_options .redux-container .redux-main .form-table tr td {
+    display: block;
+    width: 100%;
+}
+
+.appearance_page_axil_options .redux-container .redux-main .form-table tr th {
+    border-bottom: none;
+}
+
+.appearance_page_axil_options .redux-container .redux-main .form-table tr td {
+    border-top: none;
+}
+
+.appearance_page_axil_options .redux-container .redux_field_th,
+.appearance_page_axil_options .update-messages h2,
+.appearance_page_axil_options .update-php h2,
+.appearance_page_axil_options h4 {
+    display: block;
+    font-size: 20px;
+    line-height: 30px;
+    color: #010101;
+    font-weight: 500;
+    padding: 0;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.appearance_page_axil_options .update-messages h2,
+.appearance_page_axil_options .update-php h2,
+.appearance_page_axil_options h4 {
+    margin-top: 0;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .wp-picker-input-wrap input[type=text] {
+    height: 50px;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .redux-typography-container .input_wrapper input.mini {
+    height: 52px;
+    line-height: 50px;
+    border: 1px solid #e2e2e2;
+    width: 100%;
+}
+
+.appearance_page_axil_options .redux-group-menu .subsection {
+    background: #3858f60f !important;
+}
+
+.appearance_page_axil_options #papr_option-papr_select_menu .select2-container {
+    width: 250px !important;
+}
+
+.appearance_page_axil_options #papr_social_icons-list input {
+    width: 250px;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container button.wp-color-result:before,
+.appearance_page_axil_options.wp-admin.wp-admin .sp-replacer.redux-color-rgba::before {
+    position: absolute;
+    left: -1px;
+    top: 0;
+    background-image: url(../../images/optionframework/color-chooser.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    content: "";
+    width: 78px;
+    height: 48px;
+    z-index: 9;
+}
+
+.appearance_page_axil_options .redux-container-select .select2-container {
+    width: 250px !important;
+}
+
+.appearance_page_axil_options .redux-container-switch .switch-options label:not(.selected) {
+    z-index: 50;
+}
+
+.appearance_page_axil_options .redux-container-switch .switch-options label {
+    cursor: pointer;
+    float: none;
+    width: 51px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0 !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border: none;
+    padding: 0 !important;
+    box-shadow: none !important;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .redux-container-switch .switch-options label span {
+    position: static;
+    opacity: 1;
+    transition: 0.1s ease 0s;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 60px;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .redux-container-switch .switch-options .cb-disable::before,
+.appearance_page_axil_options.wp-admin .redux-container .redux-container-switch .switch-options .cb-enable::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: auto;
+    right: 4px;
+    opacity: 1;
+    height: 18px;
+    width: 18px;
+    background: #fff;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+
+.appearance_page_axil_options.wp-admin .redux-container .redux-container-switch .switch-options .cb-enable::before {
+    background: #958fa3;
+    left: 4px;
+    right: auto;
+}
+
+.appearance_page_axil_options .redux-container-switch .switch-options label {
+    box-shadow: none;
+    border: none;
+}
+
+.appearance_page_axil_options.admin-color-fresh .redux-container-switch .cb-enable {
+    background: #e2e2e2 !important;
+}
+
+.appearance_page_axil_options.admin-color-fresh .redux-container-switch .cb-disable {
+    background: #3858f6 !important;
+    border: none !important;
+}
+
+.appearance_page_axil_options.admin-color-fresh .redux-container-switch .cb-disable.selected {
+    box-shadow: none !important;
+    border: none !important;
+    background-image: none !important;
+    background: transparent !important;
+}
+
+.appearance_page_axil_options.admin-color-fresh .redux-container-switch .switch-options label {
+    height: 28px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.appearance_page_axil_options .ocdi__gl-item.active_demo {
+    border-color: #ff2c54;
+}
+
+.appearance_page_axil_options .redux-container-switch .switch-options {
+    position: relative;
+}
+
+.appearance_page_axil_options .switch-options.disable .cb-disable.selected,
+.appearance_page_axil_options .switch-options.enable .cb-enable.selected {
+    color: #333 !important;
+}
+
+.appearance_page_axil_options .switch-options.enable .cb-disable span,
+.appearance_page_axil_options .switch-options.disable .cb-enable span {
+    color: #fff;
+    opacity: 0 !important;
+}
+
+.appearance_page_axil_options .ocdi__gl-item-footer {
+    height: 50px;
+    margin: 0;
+    padding: 10px 15px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    background: rgba(255, 255, 255, 0.65);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.appearance_page_axil_options .ocdi__gl .button-primary,
+.appearance_page_axil_options .ocdi__gl .button,
+.appearance_page_axil_options .ui-dialog-buttonpane .ui-button {
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    padding: 17px 22px 19px;
+    line-height: 0;
+    border-radius: 35px;
+    box-shadow: none;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.appearance_page_axil_options .ocdi__gl .button {
+    margin-left: 10px;
+    background: #0073aa;
+}
+
+.appearance_page_axil_options .ocdi__gl .button-primary,
+.appearance_page_axil_options .ui-dialog-buttonpane .ui-button {
+    background: #3858f6;
+}
+
+.appearance_page_axil_options .ocdi__gl .button:hover,
+.appearance_page_axil_options .ocdi__gl .button:focus,
+.appearance_page_axil_options .ocdi__gl .button-primary:hover,
+.appearance_page_axil_options .ocdi__gl .button-primary:focus {
+    background: #3858f6;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+}
+
+.appearance_page_axil_options h4.ocdi__gl-item-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.appearance_page_axil_options .ocdi__gl-item {
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid #f4f4f5;
+    box-shadow: 0px 14px 30px #d3d4d7;
+}
+
+.appearance_page_axil_options .wp-core-ui .button-secondary:active,
+.appearance_page_axil_options .wp-core-ui .button.active,
+.appearance_page_axil_options .wp-core-ui .button.active:hover,
+.appearance_page_axil_options .wp-core-ui .button:active {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+.appearance_page_axil_options .ocdi__modal-notice.ocdi__demo-import-notice:not(:empty) {
+    border-left: 4px solid #ff2c54;
+}
+
+.appearance_page_axil_options .ocdi__modal-notice.ocdi__demo-import-notice:not(:empty) {
+    box-shadow: none;
+    border-radius: 6px;
+}
+
+.appearance_page_axil_options .ui-dialog {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.appearance_page_axil_options .ui-dialog-buttonpane .ui-dialog-buttonset {
+    float: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.appearance_page_axil_options .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button {
+    margin-left: 0;
+    background: #fd4648;
+}
+
+.appearance_page_axil_options .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button.button-primary {
+    background: #3eb75e;
+}
+
+.appearance_page_axil_options .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button:hover,
+.appearance_page_axil_options .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button.button-primary:hover {
+    opacity: 0.8;
+}
+
+.appearance_page_axil_options .ui-button.ui-dialog-titlebar-close {
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.appearance_page_axil_options .ui-button.ui-dialog-titlebar-close:hover {
+    color: #ff2c54;
+}
+
+.appearance_page_axil_options #axil-new-sidebar .form-table th {
+    width: 60px;
+}
+
+.appearance_page_axil_options #axil-new-sidebar .form-table input {
+    width: 100%;
+}
+
+.appearance_page_axil_options .redux-main .form-table-section-indented {
+    width: 97%;
+    margin-left: 3% !important;
+}
+
+.appearance_page_axil_options.wp-admin .select2-drop-active {
+    min-width: 90px !important;
+}
+
+
+
+.ocdi__gl .button-primary,
+.ui-dialog-buttonpane .ui-buttonbody {
+    color: #272b3A;
+    background: #F9F9F9;
+}
+
+
+
+
+
+
+
+
+/* theme active color */
+.ocdi__gl-item.active_demo {
+    border-color: #ff2c54;
+}
+
+.redux-container-switch .switch-options {
+    position: relative;
+}
+
+.switch-options.disable .cb-disable.selected,
+.switch-options.enable .cb-enable.selected {
+    color: #333 !important;
+}
+
+.switch-options.enable .cb-disable span,
+.switch-options.disable .cb-enable span {
+    color: #fff;
+    opacity: 0 !important;
+}
+
+/* demo importer css */
+.ocdi__gl-item-footer {
+    height: 50px;
+    margin: 0;
+    padding: 10px 15px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+    background: rgba(255, 255, 255, 0.65);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.ocdi__gl .button-primary,
+.ocdi__gl .button,
+.ui-dialog-buttonpane .ui-button {
+    /* border: none;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    padding: 17px 22px 19px;
+    line-height: 0;
+    border-radius: 35px;
+    box-shadow: none;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-weight: 500; */
+}
+
+.ocdi__gl .button-primary,
+.ocdi__gl .button,
+.ui-dialog-buttonpane .ui-button {
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    padding: 0 20px;
+    height: 40px;
+    border-radius: 35px;
+    box-shadow: none;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.ocdi__gl .button {
+    margin-left: 10px;
+    background: #0073aa;
+}
+
+.ocdi__gl .button-primary,
+.ui-dialog-buttonpane .ui-button {
+    background: #3858f6;
+}
+
+.ocdi__gl .button:hover,
+.ocdi__gl .button:focus,
+.ocdi__gl .button-primary:hover,
+.ocdi__gl .button-primary:focus {
+    background: #d93e40;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+}
+
+h4.ocdi__gl-item-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.ocdi__gl-item {
+    border-radius: 6px;
+    overflow: hidden;
+    border: 3px solid transparent;
+    box-shadow: 0px 14px 30px #d3d4d7;
+    background: #fff;
+}
+
+.wp-core-ui .button-secondary:active,
+.wp-core-ui .button.active,
+.wp-core-ui .button.active:hover,
+.wp-core-ui .button:active {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+.ocdi__modal-notice.ocdi__demo-import-notice:not(:empty) {
+    border-left: 4px solid #ff2c54;
+}
+
+.ocdi__modal-notice.ocdi__demo-import-notice:not(:empty) {
+    box-shadow: none;
+    border-radius: 6px;
+}
+
+.ui-dialog {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.ui-dialog-buttonpane .ui-dialog-buttonset {
+    float: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ui-dialog-buttonpane .ui-dialog-buttonset .ui-button {
+    margin-left: 0;
+    background: #FD4648;
+}
+
+.ui-dialog-buttonpane .ui-dialog-buttonset .ui-button.button-primary {
+    background: #3858f6;
+}
+
+.ui-dialog-buttonpane .ui-dialog-buttonset .ui-button:hover,
+.ui-dialog-buttonpane .ui-dialog-buttonset .ui-button.button-primary:hover {
+    opacity: 0.8;
+}
+
+.ui-button.ui-dialog-titlebar-close {
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.ui-button.ui-dialog-titlebar-close:hover {
+    color: #ff2c54;
+}
+
+.ocdi__gl-item.active_demo::before {
+    content: "Active Demo";
+    position: absolute;
+    left: 16px;
+    bottom: 80px;
+    background: #ff2c54;
+    z-index: 9;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.ocdi__gl-item.active_demo {
+    position: relative;
+}
+
+
+
+
+.ui-widget-header {
+    border: 0 none;
+    border-bottom: 1px solid #d1d1d1;
+    background: transparent;
+    color: #000;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+    border-bottom-right-radius: 0;
+}
+
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-left,
+.ui-corner-bl {
+    border-bottom-left-radius: 0;
+}
+
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-right,
+.ui-corner-tr {
+    border-top-right-radius: 0;
+}
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-left,
+.ui-corner-tl {
+    border-top-left-radius: 0;
+}
+.ui-dialog-titlebar-close:before {
+    top: -9px;
+    position: relative;
+    z-index: 2;
+    right: 2px;
+}
+.redux-main .redux-typography-container {
+    max-width: 750px;
+}
+.appearance_page_axil_options .redux-container .redux-main .input-append .add-on, .appearance_page_axil_options .redux-container .redux-main .input-prepend .add-on {
+    height: 50px;
+    line-height: 48px;
+}
+.redux-container .redux-main .input-append {
+    margin-right: 40px;
+}
+
+
+/* Update issues fix */
+.appearance_page_axil_options .redux-container .redux-sidebar .redux-group-menu,
+.appearance_page_axil_options .redux-container .redux-sidebar .redux-group-menu li .subsection{
+    background: #ffffff;
+}
+
+.appearance_page_axil_options .redux-container .redux-sidebar .redux-group-menu li .subsection .redux-group-tab-link-li .redux-group-tab-link-a:hover {
+
+
+}
+.appearance_page_axil_options  .redux-container .redux-sidebar .redux-group-menu li .subsection .redux-group-tab-link-li .redux-group-tab-link-a{
+    background-color: transparent !important;
+}
+.appearance_page_axil_options  .redux-container .redux-sidebar .redux-group-menu li.activeChild.hasSubSections .subsection li.active a{
+    font-weight: 400 !important;
+}
+.ocdi__gl-item-image-container::after {
+    padding-top: 58.66666%;
+}
+h4.ocdi__gl-item-title {
+    overflow: inherit;
+}
+
+
+/*--------------------------
+	Custom Code New  
+---------------------------*/
+
+
+.redux-container .ui-state-active .ui-icon,
+.control-section-redux .ui-state-active .ui-icon,
+.control-panel-redux .ui-state-active .ui-icon,
+.redux-metabox .ui-state-active .ui-icon {
+	display: none !important;
+}
+
+.redux-container .ui-corner-all {
+    display: none !important;
+}
+
+.appearance_page_axil_options .redux-field-container.redux-container-button_set .ui-buttonset .ui-checkboxradio-label::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    border: 2px solid #d3d3d3;
+    border-radius: 50%;
+}
+
+.select2-container--default .select2-selection--single {
+    height: 47px;
+    display: flex;
+    align-items: center;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 11px;
+    right: 3px;
+}
+
+
+
+
+

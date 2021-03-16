@@ -1,0 +1,35 @@
+{
+  "name": "esell",
+  "version": "1.0.0",
+  "main": "Gruntfile.js",
+  "author": "axiltheme",
+  "devDependencies": {
+    "grunt": "^1.2.1",
+    "grunt-browserify": "^5.3.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-compress": "^1.4.3",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-rtlcss": "^2.0.1",
+    "grunt-sass": "^3.1.0",
+    "grunt-wp-i18n": "^1.0.0",
+    "jit-grunt": "^0.10.0",
+    "less-plugin-autoprefix": "^1.5.1",
+    "node-sass": "^4.14.1",
+    "sass": "^1.32.7",
+    "sass-autoprefixer": "^1.0.1"
+  },
+  "dependencies": {
+    "grunt-postcss": "^0.9.0",
+    "gulp": "^4.0.2",
+    "ruby": "^0.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "description": ""
+}

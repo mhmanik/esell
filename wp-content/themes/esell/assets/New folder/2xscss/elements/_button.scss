@@ -1,0 +1,36 @@
+/*----------------------
+    Button Styles  
+-----------------------*/
+a,
+button {
+    &.axil-btn {
+        background: var(--color-primary);
+        border-radius: 500px;
+        font-size: var(--font-size-b2);
+        line-height: var(--line-height-b2);
+        font-weight: 500;
+        display: inline-block;
+        padding: 18px 40px;
+        color: #ffffff;
+        transition: 0.3s;
+        border: 2px solid transparent;
+        &:hover {
+            border-color: var(--color-primary);
+            background-color: transparent;
+            color: var(--color-primary);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

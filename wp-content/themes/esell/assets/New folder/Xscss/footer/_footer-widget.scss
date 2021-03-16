@@ -1,0 +1,100 @@
+/* -------------------------
+    Footer Widget Styles  
+----------------------------*/
+
+.axil-footer-area {
+    .footer-widget-item {
+        margin-bottom: 65px;
+        ul {
+            list-style: none;
+        }
+        & > ul {
+            padding-left: 0;
+        }
+        table { 
+            margin: 0 0 8px;
+        }
+    }
+}
+
+/*---------------------------
+Footer Mainmenu  
+----------------------------*/
+
+.footer-mainmenu {
+    padding-bottom: 80px;
+    padding-top: 50px;
+    .footer-widget {
+        .title {
+            font-size: 18px;
+            line-height: 22px;
+            color: #050505;
+        }
+        ul {
+            &.ft-menu-list {
+                @extend %liststyle;
+                li {
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                    a {
+                        color: var(--color-body);
+                        font-size: 16px;
+                        line-height: 30px;
+                        transition: 0.3s;
+                        &:hover {
+                            color: var(--color-primary) !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer-widget-item {
+    .title {
+        font-size: 18px;
+        line-height: 22px;
+        color: #050505;
+    }
+    ul {
+        list-style: none;
+        
+        li {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 16px;
+            color: var(--color-body);
+            
+            a {
+                color: var(--color-body);
+                font-size: 16px;
+                line-height: 30px;
+                transition: 0.3s;
+                &:hover {
+                    color: var(--color-primary) !important;
+                }
+            }
+        }
+    }
+
+    &.widget_rss {
+        ul {
+            li {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                & + li {
+                    border-top: 1px solid var(--color-border);
+                }
+            }
+        }
+    }
+}
+
+
+.menu-short-container > ul {
+    padding-left: 0;
+}
+
+
+

@@ -1,0 +1,161 @@
+/* ---------------------
+Instagram Styles  
+-------------------------*/
+
+.instagram-post-list {
+    @extend %liststyle;
+    margin: -9px;
+    display: flex;
+    flex-wrap: wrap;
+    .single-post {
+        padding: 9px;
+        flex-basis: 16.66%;
+        margin: 0;
+        @media #{$sm-layout} {
+            flex-basis: 33.33%;
+        }
+        @media #{$large-mobile} {
+            flex-basis: 50%;
+        }
+        a {
+            display: block;
+            position: relative;
+            @extend %radius;
+            overflow: hidden;
+            img {
+                @extend %radius;
+                width: 100%;
+                transition: 0.5s;
+            }
+
+            .instagram-button {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) scale(0);
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                border-radius: 100%;
+                background: var(--color-lightest);
+                display: block;
+                text-align: center;
+                font-size: 14px;
+                color: var(--color-gray);
+                @extend %transition;
+                opacity: 0;
+                &:hover {
+                    background: var(--color-primary);
+                    color: var(--color-white);
+                }
+            }
+
+            &:hover {
+                .instagram-button  {
+                    opacity: 1;
+                    transform: translate(-50%, -50%) scale(1);
+                }
+                img {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+
+
+.axil-instagram-area,
+.widget-sidebar {
+    .sbi_photo_wrap {
+        @extend %radius;
+        a {
+            @extend %radius;
+            position: relative;
+            &::after {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                content: "\f16d";
+                font-family: "Font Awesome 5 Brands";
+                transform: translate(-50%, -50%) scale(0);
+                background: var(--color-lightest);
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                color: var(--color-gray);
+                border-radius: 100%;
+                text-align: center;
+                @extend %transition;
+            }
+            img {
+                @extend %radius;
+            }
+            &:hover {
+                &::after {
+                    transform: translate(-50%, -50%) scale(1);
+                }
+            }
+        }
+    }
+}
+
+
+// Instagram New 
+.axil-instagram-area #sbi_images {
+    padding: 0 !important;
+    margin: -9px !important;
+    width: calc(100% + 18px) !important;
+}
+
+.axil-instagram-area #sb_instagram #sbi_images .sbi_item {
+    padding: 9px !important;
+}
+.axil-instagram-area #sb_instagram .sb_instagram_header,
+.widget-sidebar #sb_instagram .sb_instagram_header {
+    margin-bottom: 30px !important;
+}
+
+#sb_instagram #sbi_load .sbi_load_btn {
+    display: inline-block !important;
+    margin-left: 0;
+    margin-right: 0;
+}
+#sb_instagram #sbi_load {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sb_instagram .sbi_follow_btn a {
+    padding: 14px 17px;
+    border-radius: 500px;
+}
+#sb_instagram #sbi_load .sbi_load_btn,
+#sb_instagram .sbi_follow_btn a {
+    margin-top: 20px;
+}
+
+
+// Sidebar Images 
+
+.axil-single-widget #sb_instagram .sbi_photo_wrap a,
+.widget-sidebar #sb_instagram .sbi_photo_wrap a {
+    border-radius: var(--radius) !important;
+}
+.axil-single-widget #sb_instagram .sbi_photo img,
+.widget-sidebar #sb_instagram .sbi_photo img {
+    border-radius: var(--radius) !important;
+}
+.axil-single-widget #sb_instagram #sbi_load,
+.widget-sidebar #sb_instagram #sbi_load {
+    margin-top: 14px;
+}
+.axil-single-widget div#sbi_images {
+    width: calc(100% + 18px) !important;
+    margin: -9px !important;
+}
+
+
+
+
+

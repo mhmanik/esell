@@ -1,0 +1,36 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WoocTheme Product Gallery Slider for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-30 18:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.6; wp-5.5.3"
+
+#. Author URI of the plugin
+msgid "https://wooctheme.club/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wooctheme.club/wooctheme-product-gallery-slider"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin will add a carousel in your Product Gallery."
+msgstr ""
+
+#. Name of the plugin
+msgid "WoocTheme Product Gallery Slider for WooCommerce"
+msgstr ""
+
+#. Author of the plugin
+msgid "wooctheme.club"
+msgstr ""

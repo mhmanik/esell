@@ -1,0 +1,41 @@
+/*------------------------
+Search Styles  
+--------------------------*/
+.axil-search {
+    &.form-group {
+        position: relative;
+        margin-bottom: 0;
+        text-align: right;
+        display: inline-block;
+        z-index: 2;
+        input {
+            background: var(--color-lightest);
+            border-radius: 44px;
+            padding-left: 46px;
+            color: var(--color-gray);
+            max-width: 245px;
+            font-size: 14px;
+        }
+        .search-button {
+            position: absolute;
+            left: 0;
+            display: inline-block;
+            top: 50%;
+            transform: translateY(-50%);
+            width: auto;
+            border: 0 none;
+            padding: 0;
+            left: 21px;
+            i {
+                font-size: 16px;
+            }
+        }
+    }
+}
+button {
+    &.search-button {
+        i {
+            color: var(--color-gray);
+        }   
+    }
+}

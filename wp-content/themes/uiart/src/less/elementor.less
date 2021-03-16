@@ -1,0 +1,3378 @@
+@import "variables";
+
+/*-------------------------------------    
+CSS INDEX
+===================================
+#. EL: Defaults
+#. EL: Section Title
+#. EL: Post
+#. EL: Logo Slider
+#. EL: Product List
+#. EL: Product Box
+#. EL: Product Slider
+#. EL: Product Isotope
+#. EL: Product Fullscreen Grid
+#. EL: Text With Icon
+#. EL: Text With Button
+#. EL: Banner With Link
+#. EL: Sale Banner Slider
+#. EL: Info Box
+#. EL: Button
+#. EL: Countdown
+#. EL: Video
+#. EL: Vertical Menu
+#. EL: Accordion
+---------------------------------------*/
+
+/*-------------------------------------
+#. EL: Defaults
+---------------------------------------*/
+.mobile-center {
+  @media @mobile {
+    text-align: center;
+  }
+}
+
+.mobile-right {
+  @media @mobile {
+    text-align: right;
+  }
+}
+.wooc-product-slider{
+  .owl-carousel .owl-stage-outer{
+    padding-bottom: 44px;
+  }
+}
+
+.wooc-title-block-1.aline-center {
+  justify-content: center;
+}
+
+.wooc-title-block-1 {
+  display: flex;
+  justify-content: space-between;
+
+  .wooc-title-block {
+    @media @vsmall {
+      text-align: center;
+    }
+  }
+  .woocue-sec-title {
+    font-size: 30px;
+    line-height: 1.3;
+    color: @secondaryColor;
+    position: relative;
+    margin-bottom: 20px;
+    font-weight: 700;
+    display: inline-block;
+    span {
+      color: @primaryColor;
+      font-size: 30px;
+      line-height: 1;
+      width: 4px;
+      height: 4px;
+      background-color: @primaryColor;
+      display: inline-block;
+      position: absolute;
+      bottom: 11px;
+      right: -10px;
+      border-radius: 1px;
+    }
+  }
+  .woocue-sub-title {
+    font-weight: 600;
+    font-size: 15px;
+    color: @primaryColor;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 18px;
+    display: inline-block;
+    letter-spacing: 3px;
+    span{
+      position: relative;
+      z-index: 9;
+    }
+    @media @vsmall {
+      display: inline-block;
+    }
+    &:after {
+      position: absolute;
+      content: "";
+      height: 40px;
+      width: 40px;
+      background-color: @cBgColor;
+      left: 0;
+      bottom: -5px;
+      border-radius: 50%;
+      z-index: 1;
+    }
+  }
+
+  .woocue-view-btn.wooc-btn-ctg-icon  {
+    margin-top: 10px;
+    @media @vsmall {
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+      .wooc-btn{
+      display: inline-block;
+      border-radius: 10px;
+      font-size: 14px;
+      line-height: 1.4;
+      font-weight: 500;
+      padding: 13px 20px 12px 20px;
+      border: 2px solid #e9f1f8;
+      -webkit-transition: 0.3s ease-in-out;
+      transition: 0.3s ease-in-out;
+      margin-left: 10px;
+      color: @secondaryColor;
+      @media @vsmall {
+        padding: 10px 18px 10px 18px;
+      }
+      i {
+        padding-left: 10px;
+        font-size: 13px;
+        transition: all 0.3s ease-out;
+      }
+
+      &:hover {
+        color: #fff;
+        background-color: @secondaryColor;
+        border: 2px solid @secondaryColor;
+
+        i {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.wooc-title-block-1.dark {
+  display: flex;
+  justify-content: space-between;
+
+  .woocue-sec-title {
+    font-size: 30px;
+    line-height: 1.3;
+    color: @secondaryColor;
+    position: relative;
+    margin-bottom: 20px;
+    font-weight: 700;
+    display: inline-block;
+
+    span {
+      color: @primaryColor;
+      font-size: 30px;
+      line-height: 1;
+      width: 4px;
+      height: 4px;
+      background-color: @primaryColor;
+      display: inline-block;
+      position: absolute;
+      bottom: 11px;
+      right: -10px;
+      border-radius: 1px;
+    }
+
+  }
+
+  .woocue-sub-title {
+    font-weight: 600;
+    font-size: 16px;
+    color: @secondaryLight;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 18px;
+
+    &:after {
+      position: absolute;
+      content: "";
+      height: 40px;
+      width: 40px;
+      background-color: @cBgColor;
+      left: 0;
+      bottom: -5px;
+      border-radius: 50%;
+      z-index: -1;
+    }
+  }
+
+   .woocue-view-btn.wooc-btn-ctg-icon  {
+    margin-top: 10px;
+    @media @vsmall {
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+    .wooc-btn{
+      display: inline-block;
+      border-radius: 10px;
+      font-size: 14px;
+      line-height: 1.4;
+      font-weight: 500;
+       padding: 13px 20px 12px 20px;
+      border: 2px solid #e9f1f8;
+      -webkit-transition: 0.3s ease-in-out;
+      transition: 0.3s ease-in-out;
+      margin-left: 10px;
+      color: @secondaryColor;
+      @media @vsmall {
+          padding: 10px 18px 10px 18px;
+      }
+      i {
+        padding-left: 10px;
+        font-size: 13px;
+        transition: all 0.3s ease-out;
+      }
+
+      &:hover {
+        color: #fff;
+        background-color: @secondaryColor;
+        border: 2px solid @secondaryColor;
+
+        i {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.wooc-title-block-1.light {
+  display: flex;
+  justify-content: space-between;
+  .woocue-sec-title {
+    font-size: 30px;
+    line-height: 1.3;
+    color: #fff;
+    position: relative;
+    margin-bottom: 20px;
+    font-weight: 700;
+    display: inline-block;
+
+    span {
+      color: @primaryColor;
+      font-size: 30px;
+      line-height: 1;
+      width: 4px;
+      height: 4px;
+      background-color: @primaryColor;
+      display: inline-block;
+      position: absolute;
+      bottom: 11px;
+      right: -10px;
+      border-radius: 1px;
+    }
+  }
+  .woocue-sub-title {
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 18px;
+    &:after {
+      position: absolute;
+      content: "";
+      height: 40px;
+      width: 40px;
+      background-color: @cBgColor;
+      left: 0;
+      bottom: -5px;
+      border-radius: 50%;
+      z-index: -1;
+    }
+  }
+  .woocue-view-btn.wooc-btn-ctg-icon  {
+    margin-top: 10px;
+    @media @vsmall {
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+    .wooc-btn{
+      display: inline-block;
+      border-radius: 10px;
+      font-size: 14px;
+      line-height: 1.4;
+      font-weight: 500;
+      padding: 13px 20px 12px 20px;
+      border: 2px solid #e9f1f8;
+      -webkit-transition: 0.3s ease-in-out;
+      transition: 0.3s ease-in-out;
+      margin-left: 10px;
+      color: @secondaryColor;
+      @media @vsmall {
+          padding: 10px 18px 10px 18px;
+      }
+      i {
+        padding-left: 10px;
+        font-size: 13px;
+        transition: all 0.3s ease-out;
+      }
+      &:hover {
+        color: #fff;
+        background-color: @secondaryColor;
+        border: 2px solid @secondaryColor;
+        i {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+.wooc-slider-title-block-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+
+  @media @mobile {
+    display: block;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .woocue-sec-title {
+    font-size: 30px;
+    line-height: 1.3;
+    color: @secondaryColor;
+    position: relative;
+    margin-bottom: 40px;
+    font-weight: 700;
+    display: inline-block;
+    @media @vsmall {
+      margin-bottom: 0;
+    }
+    span {
+      color: @primaryColor;
+      font-size: 30px;
+      line-height: 1;
+      width: 4px;
+      height: 4px;
+      background-color: @primaryColor;
+      display: inline-block;
+      position: absolute;
+      bottom: 11px;
+      right: -10px;
+      border-radius: 1px;
+    }
+  }
+  .woocue-sub-title {
+    font-weight: 600;
+    font-size: 15px;    
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 18px;
+    display: inline-block;
+    color: @primaryColor;
+    letter-spacing: 3px;
+    &:after {
+      position: absolute;
+      content: "";
+      height: 40px;
+      width: 40px;
+      background-color: @cBgColor;
+      left: 0;
+      bottom: -5px;
+      border-radius: 50%;
+      z-index: -1;
+    }
+  }
+  .woocue-view-btn.wooc-btn-ctg-icon  {
+    margin-top: 10px;
+    @media @mobile {
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+     .wooc-btn{
+      display: inline-block;
+      border-radius: 10px;
+      font-size: 14px;
+      line-height: 1.4;
+      font-weight: 500;
+      padding: 13px 20px 12px 20px;
+      border: 2px solid #e9f1f8;
+      -webkit-transition: 0.3s ease-in-out;
+      transition: 0.3s ease-in-out;
+      margin-left: 10px;
+      color: @secondaryColor;
+      @media @mobile {
+          padding: 10px 18px 10px 18px;
+      }
+      i {
+        padding-left: 10px;
+        font-size: 13px;
+        transition: all 0.3s ease-out;
+      }
+      &:hover {
+        color: #fff;
+        background-color: @secondaryColor;
+        border: 2px solid @secondaryColor;
+        i {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.woocue-style-3.sub_title {
+  .wooc-slider-title-block-1 {    
+    align-items: center;   
+     @media @mobile {      
+       
+      }
+  }
+}
+
+.woocue-style-3 {
+  .wooc-slider-title-block-1 {
+    border-bottom: 2px solid @bgColor2;
+    align-items: baseline;
+    margin-bottom: 30px;
+     @media @mobile {      
+        padding-bottom: 38px;
+        margin-bottom: 40px;
+      }
+  }
+}
+
+.wooc-slider-title-block-1.no-after-style {
+  display: flex;
+  justify-content: space-between;
+
+  .woocue-sec-title {
+    font-size: 28px;
+    line-height: 1.3;
+    color: @secondaryColor;
+    position: relative;
+    padding-bottom: 0;
+    margin-bottom: 30px;
+
+    &:after {
+      display: none;
+    }
+  }
+
+  .woocue-viewall {
+    margin-top: 10px;
+
+    a {
+      color: @bodyColor;
+
+      i {
+        padding-left: 10px;
+        font-size: 13px;
+        transition: all 0.3s ease-out;
+      }
+
+      &:hover {
+        color: @secondaryColor;
+
+        i {
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+}
+
+body .owl-theme .owl-dots {
+  margin-top: 45px !important;
+
+  .owl-dot {
+    span {
+      background: fade(@primaryColor, 5%);
+      width: 16px;
+      height: 16px;
+      transition: all 0.3s ease-out;
+      margin: 0 5px;
+    }
+
+    &.active span,
+    &:hover span {
+      background: @primaryColor;
+      box-shadow: 0 0 40px 0 rgba(94, 92, 154, .06);
+    }
+  }
+}
+
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+/*-------------------------------------
+#. EL: Section Title
+---------------------------------------*/
+.woocuetitle {
+  text-align: center;
+
+  .woocue-title {
+    font-size: 28px;
+    line-height: 1.3;
+    color: @secondaryColor;
+    margin: 0;
+  }
+
+  .woocue-subtitle {
+    color: @bodyColor;
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 400;
+    margin: 20px 0 0;
+  }
+
+  &.woocue-align-left {
+    text-align: left;
+  }
+
+  &.woocue-align-right {
+    text-align: right;
+  }
+
+  &.woocue-style-2 {
+    .woocue-title {
+      position: relative;
+      padding-bottom: 20px;
+
+      &:after {
+        position: absolute;
+        content: "";
+        height: 3px;
+        width: 50px;
+        background-color: @primaryColor;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+      }
+    }
+
+    &.woocue-align-left .woocue-title:after {
+      margin: 0;
+      right: inherit;
+    }
+
+    &.woocue-align-right .woocue-title:after {
+      margin: 0;
+      left: inherit;
+    }
+  }
+}
+
+/*-------------------------------------
+#. EL: Post
+---------------------------------------*/
+.woocuepost-1 {
+  .woocue-item {
+    background-color: #fff;
+    transform: translateY(0px);
+    border: 2px solid @borderLight;
+    transition: all 0.3s ease-out;
+    border-radius: 12px;
+    height: 100%;
+    overflow: hidden;
+    @media all and (max-width: 767.98px) {
+      margin-bottom: 30px;
+      height: inherit;
+    }
+
+    .woocue-thumb {
+      border-radius: 12px 12px 0 0;
+      overflow: hidden;
+    }
+
+    .woocue-content {
+      padding: 30px 40px 25px;
+      @media all and (max-width: 991.98px) {
+        padding: 26px 20px;
+      }
+
+      .woocue-date {
+        color: @blogMetaColor;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.3;
+        margin-bottom: 12px;
+      }
+
+      .woocue-title {
+        font-size: 20px;
+        line-height: 1.4;
+        font-weight: 600;
+        a {
+          color: @secondaryColor;
+          &:hover {
+            color: @primaryColor;
+          }
+        }
+      }
+
+      .woocue-author {
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      .woocue-author a {
+         color: @blogMetaColor;
+        &:hover {
+          color: @primaryColor;
+
+        }
+      }
+    }
+
+    &:hover {
+      transform: translateY(-10px);
+    }
+  }
+
+  &.woocue-dark .wooc-slider-title-block-1 {
+    .woocue-sec-title {
+      color: #fff;
+
+      &:after {
+        background-color: #fff;
+      }
+
+    }
+
+    .woocue-viewall a {
+      color: #cccccc;
+
+      &:hover {
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+.woocuepost-2 {
+  .woocue-content-meta{
+    display: flex;
+    margin-bottom: 15px;
+  }
+  .woocue-item {
+    background-color: #fff;
+    transform: translateY(0px);   
+    transition: all 0.3s ease-out;  
+    height: 100%;
+    overflow: hidden;
+    @media all and (max-width: 767.98px) {
+      margin-bottom: 30px;
+      height: inherit;
+    }
+
+    .woocue-thumb-wrp{
+      position: relative;
+      border-radius: 16px;
+      img{
+         border-radius: 16px;
+      }
+       .woocue-date {
+          background-color: #fff;
+          border-radius: 14px;       
+          bottom: -37px;
+          right: 33px;
+          color: @secondaryColor;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 1.3;
+          margin-bottom: 12px;
+          position: absolute;
+          width: 70px;
+          height: 70px;
+          font-family: @titleFont;
+          .postdate{
+            box-shadow: 0px 8px 16px 0px fade(@secondaryColor, 5%);
+            width: 70px;
+            height: 70px;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            border-radius: 14px;          
+            text-align: center;
+            line-height: 1;
+            padding-top: 10px;
+            .day{
+              font-size: 32px;
+            }
+            .month {
+              font-size: 14px;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+
+    .woocue-thumb {    
+      overflow: hidden;     
+    }
+    .woocue-content {
+      padding: 30px 0 0 0;         
+      .woocue-title {
+        font-size: 24px;
+        line-height: 1.5;
+        font-weight: 600;
+        a {
+          color: @secondaryColor;
+          &:hover {
+            color: @primaryColor;
+          }
+        }
+      }
+      .dividar{
+        font-size: 15px;
+        font-weight: 500;
+        margin-right: 20px;
+        color: @blogMetaColor;
+      }
+      .woocue-author,
+      .woocue-cats {
+        font-size: 15px;
+        font-weight: 500;
+        margin-right: 20px;
+         color: @blogMetaColor;
+        a{
+          color: @blogMetaColor;
+          &:hover {
+            color: @primaryColor;
+          }
+        }
+        i{
+          margin-right: 5px;
+          color: @primaryColor;
+          font-size: 14px;
+        }
+      }     
+    }
+    &:hover {
+      transform: translateY(-10px);
+    }
+  }
+  &.woocue-dark .wooc-slider-title-block-1 {
+    .woocue-sec-title {
+      color: #fff;
+      &:after {
+        background-color: #fff;
+      }
+    }
+    .woocue-viewall a {
+      color: #cccccc;
+      &:hover {
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+
+/*--------------------------------------
+#. EL: Logo Slider
+---------------------------------------*/
+.woocuelogo-slider {
+  .woocue-item img {
+    width: inherit !important;
+    margin: 0 auto;
+    opacity: 0.8;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+/*--------------------------------------
+#. EL: Product List
+---------------------------------------*/
+.woocueproduct-list {
+  .woocue-sec-title {
+    font-size: 28px;
+    line-height: 1.3;
+    color: @secondaryColor;
+    padding-bottom: 18px;
+    margin-bottom: 30px;
+    position: relative;
+    &:after {
+      position: absolute;
+      content: "";
+      height: 3px;
+      width: 50px;
+      background-color: @primaryColor;
+      left: 0;
+      bottom: 0;
+    }
+  }
+
+  .woocue-item {
+    margin-bottom: 20px;
+    .woocue-thumb {
+      display: block;
+      border-radius: 16px;
+      position: relative;
+      overflow: hidden;
+      margin-right: 30px;
+      max-width: 30%;
+      outline: none;
+      transition: all 0.3s ease-out;
+      border: 2px solid @bgColor2;
+
+      @media @tablet {
+        margin-right: 15px;
+      }
+      @media @mobile {
+        margin-right: 30px;
+      }
+      @media @vsmall {
+        margin-right: 20px;
+      }
+
+      &:after {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        background-color: fade( @primaryColor, 50%);
+        top: 0;
+        left: 0;
+        z-index: 1;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease-out;
+      }
+
+      .woocue-icon {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        right: 0;
+        z-index: 2;
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease-out;
+        background-color: fade(@secondaryColor, 10%);
+        a{
+          background: fade(#fff, 90%);
+          padding: 7px;
+          border-radius: 4px;
+          line-height: 1;
+          transition: all 0.2s ease-in-out 0s;          
+          i{
+            color: @primaryColor;
+          }
+          &:hover{
+              background-color: @primaryColor;
+            i {
+                &:before {            
+                 color: #fff;
+                }
+              }
+            }
+          }
+        i {
+          &:before {            
+            margin-left: 0;
+            font-size: 18px;
+            line-height: 1;
+          }
+        }
+      }      
+    }
+  &:hover {
+        &:after,
+        .woocue-icon {           
+            opacity: 1;
+            visibility: visible;
+           
+        }
+      }
+ 
+
+    .media-body {
+      .woocue-title {
+        font-size: 18px;
+        line-height: 1.3;
+        margin-bottom: 0;
+        a {
+          color: @productTitleColor;
+          transition: all 0.3s ease-out;
+          &:hover {
+            color: @primaryColor;
+          }
+        }
+      }
+      .woocue-cat {
+        margin-top: 8px;
+      }
+      .wooctheme-star-rating {
+        color: @accentColor;
+        font-size: 13px;
+        line-height: 1;
+        margin: 10px 0 13px;
+        overflow: hidden;
+        position: relative;
+        height: 1em;
+        width: 5.4em;
+        font-family: 'star';
+        margin: 14px 0 0 0;
+      }
+      .woocue-price {
+        margin-top: 10px;
+        color: @secondaryColor;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.3;
+        del {
+          color: #9c9c9c;
+          font-weight: 500;
+          padding-right: 5px;
+        }
+        ins {
+          background-color: transparent;
+        }
+      }
+    }
+
+
+  }
+}
+
+.woocueproduct-list.woocueproduct-grid {
+  .woocue-sec-title-area {
+    .woocue-sec-title:after {
+      display: none;
+    }
+
+    .woocue-sec-title {
+      padding-bottom: 0;
+    }
+
+    .woocue-viewall {
+      text-align: right;
+
+      a {
+        transition: all 0.3s ease-out;
+
+        &:hover {
+          color: @primaryColor;
+
+          i {
+            margin-left: 1px;
+          }
+        }
+
+        i {
+          margin-left: 3px;
+          transition: all 0.3s ease-out;
+        }
+      }
+    }
+  }
+
+  .woocue-item .woocue-thumb {
+    max-width: 34%;
+  }
+}
+
+/*--------------------------------------
+#. EL: Product Box
+---------------------------------------*/
+.woocueproduct-box {
+  .wooc-product-block {
+    max-width: inherit;
+    margin-bottom: 0;
+  }
+}
+
+/*--------------------------------------
+#. EL: Product Isotope
+---------------------------------------*/
+.woocueproduct-isotope {
+
+  .wooc-product-block {
+    @media @small {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  &.woocue-layout-1 .woocue-navs-area {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    @media @mobile {
+      display: block;
+    }
+
+    .woocue-navs {
+      border-radius: 14px;
+      border: 2px solid @borderColor;
+      font-size: 16px;
+      color: @secondaryColor;
+      padding: 12px 26px;
+      font-family: @titleFont;
+      font-weight: 500;
+
+      a {
+        font-size: 18px;
+        line-height: 1;
+        font-weight: 500;
+        display: inline-block;
+        color: @bodyColor;
+        margin-right: 40px;
+        position: relative;
+        outline: none;
+        outline: none;
+        font-family: @titleFont;
+        @media @mobile {
+          font-size: 15px;
+        }
+
+        &.current {
+          color: @primaryColor;
+        }
+
+        &:after {
+          content: "";
+          position: absolute;
+          right: -20px;
+          height: 20px;
+          width: 2px;
+          background-color: @borderColor;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+
+        &:last-child {
+          margin: 0;
+
+          &:after {
+            content: none;
+          }
+        }
+      }
+    }
+
+    .woocue-viewall {
+      align-self: center;
+
+      a {
+
+        border-radius: 14px;
+        border: 2px solid @borderColor;
+        font-size: 16px;
+        color: @secondaryColor;
+        padding: 10px 26px;
+        font-family: @titleFont;
+        font-weight: 500;
+
+        i {
+          padding-left: 10px;
+          font-size: 13px;
+          transition: all 0.3s ease-out;
+        }
+
+        &:hover {
+          color: @bodyColor;
+
+          i {
+            padding-left: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  &.woocue-layout-2 .woocue-navs-area {
+    .woocue-navs {
+      position: relative;
+      margin-bottom: 40px;
+      @media @tablet {
+        display: block;
+      }
+      @media @mobile {
+        margin-bottom: 20px;
+      }
+
+      &:after {
+        position: absolute;
+        content: "";
+        border-bottom: 2px solid @bgColor;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+      }
+
+      a {
+        font-size: 16px;
+        line-height: 1.2;
+        display: inline-block;
+        font-weight: 500;
+        margin: 0 15px;
+        color: @bodyColor;
+        position: relative;
+        padding-bottom: 20px;
+        outline: none;
+        font-family: @titleFont;
+        @media @mobile {
+          padding: 10px 4px 18px 4px;
+          margin: 0 ;
+          font-size: 15px;
+        }
+        @media @small {
+          padding: 10px 4px 18px 4px;
+          font-size: 14px;
+
+        }
+
+        &:hover {
+          color: @primaryColor;
+        }
+
+        &.current {
+          color: @primaryColor;
+
+          &:after {
+            transition: all 0.3s ease-out;
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 12px;
+            border: 2px solid @borderColor;
+            background-color: #fff;
+            z-index: 2;
+            bottom: -5px;
+            left: 0;
+            -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+            border-radius: 4px;
+
+          }
+        }
+      }
+    }
+  }
+
+ &.woocue-layout-4 .woocue-navs-area {
+    .woocue-navs {
+      position: relative;
+      margin-bottom: 40px;
+      @media @tablet {
+        display: block;
+      }
+      @media @mobile {
+        margin-bottom: 20px;
+      }
+    .wooc-filter-block{
+      position: relative;
+      padding-left: 30px;
+        &:after {
+          position: absolute;
+          content: "";
+          border-bottom: 2px solid @bgColor;
+          bottom: -8px;
+          left: 0;
+          right: 0;
+          z-index: 1;
+        }
+      }
+      a {
+        font-size: 16px;
+        line-height: 1.2;
+        display: inline-block;
+        font-weight: 600;
+        margin: 0 15px;
+        color: @secondaryLight;
+        position: relative;
+        padding-bottom: 20px;
+        outline: none;
+        font-family: @titleFont;
+        @media @mobile {
+          padding: 10px 4px 18px 4px;
+          margin: 0 ;
+          font-size: 15px;
+        }
+        @media @small {
+          padding: 10px 4px 18px 4px;
+          font-size: 14px;
+        }
+        &:hover {
+          color: @primaryColor;
+        }
+        &.current {
+          color: @primaryColor;
+          &:after {
+            width: 0px;
+            height: 0px;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 5px solid @secondaryColor;
+            bottom: -12px;
+            z-index: 2;
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+          }
+          &:before {
+            transition: all 0.3s ease-out;
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;           
+            background-color: @secondaryColor;
+            z-index: 2;
+            bottom: -8px;
+            left: 0;
+            -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+            border-radius: 4px;
+          }          
+        }
+      }
+    }
+  }
+
+  &.woocue-layout-3 .woocue-navs-area {
+    .woocue-navs {
+      position: relative;
+      text-align: center;
+      margin-bottom: 50px;
+      @media @mobile {
+        display: block;
+      }
+      @media @mobile {
+        margin-bottom: 20px;
+      }
+
+      a {
+        font-size: 18px;
+        line-height: 1.3;
+        font-weight: 400;
+        display: inline-block;
+        color: @secondaryColor;
+        margin: 0 15px;
+        position: relative;
+        padding-bottom: 12px;
+        outline: none;
+        @media @mobile {
+          font-size: 15px;
+          margin: 0;
+        }
+        @media @mobile {
+          padding: 3px;
+          margin: 0 6px;
+        }
+
+        &:hover {
+          color: @primaryColor;
+        }
+
+        &.current {
+          color: @primaryColor;
+
+          &:after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: fade(@primaryColor, 78.5%);
+            z-index: 2;
+            bottom: 0;
+            left: 0;
+            transition: all 0.3s ease-out;
+          }
+        }
+      }
+    }
+  }
+
+  .woocue-no-item {
+    text-align: center;
+    color: @secondaryColor;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+
+  .woocue-viewall-2.btn-style-1 {
+    text-align: center;
+    margin-top: 40px;
+    a {
+      position: relative;
+      border-radius: 14px;
+      border: 2px solid @primaryColor;
+      font-size: 15px;
+      color: #fff;
+      font-weight: 500;
+      background-color: @primaryColor;
+      display: inline-block;
+      padding: 12px 26px;
+      line-height: 1.4;
+      i {
+        margin-left: 5px;
+        font-weight: 600;
+      }
+
+      &:hover {
+        background-color: @secondaryColor;
+        border: 2px solid @secondaryColor;
+      }
+    }
+  }
+
+  .woocue-viewall-2.btn-style-2 {
+    text-align: center;
+    margin-top: 40px;
+
+    a {
+      position: relative;
+      border-radius: 14px;
+      border: 2px solid @secondaryColor;
+      font-size: 15px;
+      color: #fff;
+     padding: 12px 26px;
+      line-height: 1.4;
+      font-weight: 500;
+      background-color: @secondaryColor;
+      display: inline-block;
+
+      i {
+
+        margin-left: 5px;
+        font-weight: 600;
+      }
+
+      &:hover {
+        background-color: @primaryColor;
+        border: 2px solid @primaryColor;
+        color: #ffffff;
+      }
+    }
+  }
+
+  .woocue-viewall-2.btn-style-3 {
+    text-align: center;
+    margin-top: 40px;
+
+    a {
+      position: relative;
+      border-radius: 14px;
+      border: 2px solid #e9f1f8;
+      font-size: 15px;
+      color: @secondaryColor;
+       padding: 12px 26px;
+      line-height: 1.4;
+      font-weight: 500;
+      background-color: #e9f1f8;
+      display: inline-block;
+
+      i {
+
+        margin-left: 5px;
+        font-weight: 600;
+      }
+
+      &:hover {
+        background-color: @primaryColor;
+        border: 2px solid @primaryColor;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+/*--------------------------------------
+#. EL: Product Fullscreen Grid
+---------------------------------------*/
+.woocueproduct-fullscreen-grid-1 {
+  .woocue-sec-title-area {
+    text-align: center;
+    margin-bottom: 30px;
+
+    .woocue-sec-title {
+      font-size: 28px;
+      line-height: 1.3;
+      color: @secondaryColor;
+      position: relative;
+      margin: 0;
+    }
+
+    .woocue-viewall {
+      display: block;
+      margin-top: 10px;
+
+      a {
+        color: @secondaryColor;
+      }
+    }
+  }
+
+  .wooc-product-block {
+    margin-bottom: 30px;
+    max-width: 410px;
+    @media @mobile {
+      margin: 0 auto 30px;
+    }
+  }
+}
+
+.woocueproduct-fullscreen-grid-2 {
+  .woocue-big .wooc-product-block {
+    max-width: 520px;
+  }
+}
+
+.woocueproduct-fullscreen-grid-2.fullscreen-grid-3 {
+  .wooc-slider-title-block-1 {
+    .woocue-sec-title {
+      padding-bottom: 0;
+
+      &:after {
+        display: none;
+      }
+    }
+  }
+}
+
+/*--------------------------------------
+#. EL: Text With Icon
+---------------------------------------*/
+.woocuetext-with-icon {
+  .woocue-item {
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+    box-shadow: 0px 1px 1px 0px rgba(206, 206, 206, 0.75);
+    padding: 30px;
+    transition: all 0.3s ease-out;
+
+    .woocue-icon {
+      margin-right: 30px;
+      border-right: 1px solid #a8a8a8;
+      padding-right: 30px;
+      line-height: 1;
+
+      i {
+        font-size: 56px;
+        line-height: 1;
+        color: @primaryColor;
+      }
+
+      img {
+        width: 56px;
+        height: 56px;
+      }
+
+      svg {
+        fill: @primaryColor;
+        width: 56px;
+      }
+    }
+
+    .woocue-title {
+      font-size: 22px;
+      line-height: 1.3;
+      font-weight: 600;
+      color: @secondaryColor;
+      margin: 0;
+    }
+
+    .woocue-subtitle {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    &:hover {
+      opacity: 1;
+      box-shadow: 0px 10px 29px 0px fade(#c2c2c2, 75%);
+      background-color: #ffffff;
+    }
+  }
+
+  &.woocue-style-1 .woocue-item {
+    opacity: 0.75;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &.woocue-style-1.elmaxwidth-360 .woocue-item {
+    display: block;
+    text-align: center;
+
+    .woocue-icon {
+      margin: 0 0 20px;
+      padding: 0;
+      border: none;
+    }
+  }
+
+  &.woocue-style-2 {
+    .woocue-item {
+      border: 1px solid #dddddd;
+      opacity: 0.8;
+      box-shadow: none;
+      background: transparent;
+      border-radius: 4px;
+      padding: 30px 10px;
+
+      &:hover {
+        opacity: 1;
+        box-shadow: 0px 10px 29px 0px fade(#c2c2c2, 75%);
+        border-color: transparent;
+      }
+
+      .woocue-icon {
+        margin-right: 15px;
+        padding-right: 13px;
+        line-height: 1;
+
+        i {
+          color: @primaryColor;
+        }
+
+        svg {
+          fill: @primaryColor;
+        }
+      }
+    }
+
+    &.elmaxwidth-320 .woocue-item {
+      display: block;
+      text-align: center;
+      padding: 20px 10px;
+
+      .woocue-icon {
+        margin: 0 0 20px;
+        padding: 0;
+        border: none;
+      }
+
+      .woocue-title {
+        font-size: 20px;
+      }
+
+      .woocue-subtitle {
+        margin: 0;
+      }
+    }
+  }
+
+  &.woocue-style-3 .woocue-item {
+    padding: 40px 20px;
+    border: 1px solid #d8d8d8;
+    justify-content: center;
+    background: transparent;
+    opacity: 0.8;
+
+    .woocue-icon {
+      border: none;
+      padding: 0;
+      margin: 0 20px 0 0;
+
+      i {
+        font-size: 42px;
+      }
+
+      img {
+        width: 42px;
+        height: 42px;
+      }
+
+      svg {
+        width: 42px;
+      }
+    }
+
+    .woocue-title {
+      font-size: 20px;
+    }
+
+    &:hover {
+      box-shadow: none;
+      background-color: transparent;
+    }
+  }
+
+  &.woocue-style-4 {
+    .woocue-item {
+      padding: 0;
+      border: none;
+      box-shadow: none;
+      background: transparent;
+      opacity: 1;
+      @media @mobile {
+        display: block;
+        text-align: center;
+      }
+
+      .woocue-icon {
+        @media @mobile {
+          margin: 0 0 10px 0;
+          padding: 0;
+          border: none;
+        }
+
+        i {
+          color: @primaryColor;
+        }
+
+        svg {
+          fill: @primaryColor;
+        }
+      }
+    }
+
+    &.elmaxwidth-320 .woocue-item {
+      display: block;
+      text-align: center;
+
+      .woocue-icon {
+        margin: 0 0 20px;
+        padding: 0;
+        border: none;
+      }
+    }
+  }
+
+
+  &.woocue-style-5 {
+    .woocue-item {
+      padding: 0;
+      border: none;
+      box-shadow: none;
+      background: transparent;
+      opacity: 1;
+      @media @mobile {
+        display: block;
+        text-align: center;
+      }
+
+      .woocue-icon {
+        border: none;
+        padding: 0;
+        @media @mobile {
+          margin: 0 0 20px 0;
+          padding: 0;
+          border: 0;
+        }
+
+        i {
+          font-size: 52px;
+        }
+
+        img {
+          width: 52px;
+          height: 52px;
+        }
+
+        svg {
+          width: 52px;
+        }
+      }
+
+      .woocue-title {
+        font-size: 18px;
+        letter-spacing: 1px;
+      }
+    }
+
+    &.woocue-bgtype-dark .woocue-item {
+      .woocue-icon i,
+      .woocue-title,
+      .woocue-subtitle {
+        color: #cccccc;
+      }
+
+      .woocue-icon svg {
+        fill: #cccccc;
+      }
+    }
+  }
+
+  &.woocue-style-7 {
+    .woocue-item {
+      border: none;
+      box-shadow: none;
+      background: transparent;
+      opacity: 1;
+      padding: 0;
+
+      @media @mobile {
+        display: block;
+        text-align: center;
+      }
+
+      .woocue-icon {
+        margin-right: 25px;
+        border-right: 2px solid #646464;
+        padding-right: 25px;
+        line-height: 1;
+
+        @media @mobile {
+          margin-right: 0;
+          border-right: none;
+          padding-right: 0;
+          padding-bottom: 15px;
+          margin-bottom: 10px;
+        }
+
+        i {
+          font-size: 40px;
+        }
+
+        img {
+          max-width: 40px;
+          max-height: inherit;
+          width: inherit;
+          height: inherit;
+        }
+
+        svg {
+          width: 40px;
+        }
+      }
+
+      .woocue-title {
+        font-size: 20px;
+        letter-spacing: 1px;
+      }
+    }
+
+    &.woocue-bgtype-dark .woocue-item {
+      .woocue-icon i,
+      .woocue-title,
+      .woocue-subtitle {
+        color: #cccccc;
+      }
+
+      .woocue-icon svg {
+        fill: #cccccc;
+      }
+    }
+  }
+
+  &.woocue-style-6 .woocue-item {
+    text-align: center;
+    padding: 50px 30px 45px 30px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(202, 202, 202, .75);
+    transition: all .5s ease-out;
+    opacity: 1;
+    display: block;
+
+    .woocue-icon {
+      margin: 0 0 25px 0;
+      padding: 0;
+      border: none;
+
+      i, svg {
+        background-color: @primaryColor;
+        border: 1px solid @primaryColor;
+        color: #fff;
+        fill: #fff;
+        height: 67px;
+        width: 67px;
+        border-radius: 50%;
+        transition: all .5s ease-out;
+      }
+
+      i {
+        font-size: 28px;
+        line-height: 63px;
+
+      }
+
+      svg {
+        padding: 15px;
+      }
+
+      img {
+        width: 67px;
+        height: 67px;
+        border-radius: 50%;
+      }
+    }
+
+    .woocue-subtitle {
+      margin-top: 10px;
+    }
+
+    &:hover {
+      box-shadow: 0 0 20px 0 rgba(202, 202, 202, .75);
+
+      .woocue-icon {
+        i, svg {
+          color: @primaryColor;
+          fill: @primaryColor;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
+
+.scheme-custom .woocuetext-with-icon {
+  &.woocue-style-1 .woocue-item {
+    &:hover {
+      color: #ffffff;
+      background-color: @primaryColor;
+      box-shadow: 0px 10px 29px 0px fade(@primaryColor, 75%);
+
+      .woocue-icon {
+        border-color: #ffffff;
+
+        i {
+          color: #ffffff;
+        }
+
+        svg {
+          fill: #ffffff;
+        }
+      }
+
+      .woocue-title {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.scheme-black .woocuetext-with-icon.woocue-style-1.woocue-bgtype-light .woocue-item .woocue-title {
+  color: #000000;
+}
+
+@import "info-box";
+
+/*--------------------------------------
+#. EL: Text With Button
+---------------------------------------*/
+.woocuetext-with-btn {
+  @media @mobile {
+    text-align: center;
+  }
+
+  .woocue-title {
+    color: #000;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.3;
+    margin-bottom: 0;
+  }
+
+  .woocue-subtitle {
+    margin: 20px 0 0;
+    color: #000;
+  }
+
+  .woocue-btn {
+    font-size: 14px;
+    background-color: #fff;
+    padding: 18px 35px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-top: 30px;
+    line-height: 1;
+    color: #000;
+    font-weight: 600;
+    transition: all 0.3s ease-out;
+
+    &:hover {
+      background-color: @primaryColor;
+      color: #fff;
+    }
+  }
+}
+
+/*--------------------------------------
+#. EL: Banner With Link
+---------------------------------------*/
+.woocuebanner-with-link {
+  a.woocue-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+  }
+
+  .woocue-btn {
+    background-color: #fff;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 2px;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 500;
+    color: @primaryColor;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+      background-color: @primaryColor;
+      color: #fff;
+    }
+  }
+}
+
+/*--------------------------------------
+#. EL: Sale Banner Slider
+---------------------------------------*/
+.woocuesale-banner-slider {
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  overflow: hidden;
+
+  .woocue-item {
+    display: flex;
+    @media @mobile {
+      height: inherit !important;
+      flex-direction: column-reverse;
+    }
+  }
+
+  .woocue-left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 0 30px;
+    @media @mobile {
+      display: block;
+      width: inherit;
+      padding: 30px;
+    }
+  }
+
+  .woocue-left-inner {
+    display: flex;
+    align-items: center;
+    position: relative;
+    @media @mobile {
+      display: block;
+    }
+  }
+
+  .woocue-right {
+    width: 50%;
+    @media @mobile {
+      display: none;
+    }
+  }
+
+  .woocue-title {
+    font-size: 48px;
+    line-height: 1.2;
+    color: @secondaryColor;
+    margin: 0;
+    font-weight: 700;
+
+    span {
+      background-color: @primaryColor;
+      color: #fff;
+      padding: 12px 18px 2px;
+    }
+  }
+
+  .woocue-subtitle {
+    color: @secondaryColor;
+    margin: 15px 0 0;
+  }
+
+  a.woocue-btn {
+    color: @secondaryColor;
+    position: relative;
+    padding-bottom: 7px;
+    font-weight: 700;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 35px;
+
+    &:after {
+      content: "";
+      position: absolute;
+      width: 30px;
+      height: 2px;
+      z-index: 2;
+      bottom: 0;
+      left: 0;
+      transition: all 0.3s ease-out;
+      right: 0;
+      margin: 0 auto;
+      background-color: @primaryColor;
+    }
+
+    &:hover:after {
+      width: 100%;
+    }
+  }
+
+  .owl-numbered-dots-items {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    @media @mobile {
+      position: static;
+      margin-top: 35px;
+    }
+
+    span {
+      display: inline-block;
+      color: #aaaaaa;
+      font-size: 16px;
+      margin-right: 5px;
+      cursor: pointer;
+      line-height: 1;
+
+      &:after {
+        content: '/';
+        padding-left: 8px;
+        color: #aaaaaa;
+        font-size: 16px;
+      }
+
+      &:last-child:after {
+        content: none;
+      }
+
+      &.active {
+        color: @primaryColor;
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+
+/*--------------------------------------
+#. EL: Button
+---------------------------------------*/
+.woocuebtn.woocue-style-1 a {
+  font-size: 16px;
+  line-height: 1.3;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: @primaryColor;
+  border-radius: 4px;
+  padding: 15px 25px;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+
+  &:after {
+    content: "\f105";
+   font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+    padding-left: 15px;
+    line-height: 1.3;
+    font-size: 17px;
+    
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.woocuebtn.woocue-style-2 a {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.3;
+  font-weight: 700;
+  color: @secondaryColor;
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px 0 rgba(206, 206, 206, 0.75);
+  padding: 18px 25px;
+  border-radius: 4px;
+  text-align: center;
+  outline: none;
+  transition: 0.5s ease-in-out;
+
+  &:after {
+    content: "\f105";
+    font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+    padding-left: 15px;
+    line-height: 1.3;
+    font-size: 17px;
+   
+  }
+
+  &:hover {
+    color: #ffffff;
+    background-color: @secondaryColor;
+  }
+}
+
+.woocuebtn.woocue-style-3 a {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.3;
+  font-weight: 700;
+  color: @secondaryColor;
+  background-color: #ffffff;
+  padding: 15px 30px;
+  border-radius: 4px;
+  text-align: center;
+  outline: none;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.woocuebtn.woocue-style-4 a {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 700;
+  color: @secondaryColor;
+  background-color: #ffffff;
+  padding: 20px 32px;
+  border-radius: 4px;
+  text-align: center;
+  outline: none;
+  transition: 0.3s ease-in-out;
+  -webkit-box-shadow: 14px 0px 18px rgba(93, 153, 161, 0.75);
+  box-shadow: 14px 0px 18px rgba(93, 153, 161, 0.75);
+
+  &:hover {
+    background-color: @secondaryColor;
+    color: #fff;
+  }
+}
+
+/*--------------------------------------
+#. EL: Countdown
+---------------------------------------*/
+
+.wooc-countdown {
+  .wooc-countdown-wrp {
+    text-align: center;
+    border: 2px solid @bgColor;
+    border-radius: 14px;
+    padding: 48px 44px;
+    @media @tablet {
+      padding: 30px;
+    }
+    @media @sdesktop {
+      padding: 44px 15px;
+    }
+    @media @mobile {
+      padding: 30px 15px;
+    }
+
+    .wooc-countdown-image {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .wooc-countdown-title-area {
+      position: relative;
+      padding-bottom: 5px;
+      color: @productTitleColor;
+
+      .wooc-countdown-title {
+        font-size: 20px;
+        line-height: 1.3;
+        font-weight: 600;
+        color: @secondaryColor;
+
+      }
+
+      .wooc-countdown-subtitle {
+        font-size: 14px;
+        line-height: 1.3;
+        font-weight: 600;
+        color: @bodyColor;
+        margin-top: 20px;
+      }
+
+    }
+
+    .wooc-countdown-price {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      @media @tablet {
+        margin-top: 15px;
+      }
+
+      .wooc-reg-price {
+        margin-right: 10px;
+        font-size: 16px;
+        line-height: 1.3;
+        font-weight: 600;
+        color: @regularPrice;
+        text-decoration: line-through;
+        @media @tablet {
+          font-size: 16px;
+        }
+      }
+
+      .wooc-sale-price {
+        font-size: 24px;
+        line-height: 1.3;
+        color: @primaryColor;
+        font-weight: 600;
+        @media @tablet {
+          font-size: 26px;
+        }
+      }
+    }
+
+    .wooc-countdown-coutdown {
+      display: flex;
+      margin-top: 20px;
+      @media @tablet {
+        display: block;
+        margin-top: 25px;
+      }
+
+      .wooc-countdown-section {
+        background-color: @iconBtnBg;
+        margin-right: 10px;
+        text-align: center;
+        padding: 10px 10px;
+        border-radius: 14px;
+        min-width: 60px;
+        min-height: 60px;
+
+        @media @tablet {
+          display: inline-block;
+          margin-bottom: 5px;
+        }
+        @media @mobile {
+          padding: 10px 4px;
+          margin-bottom: 3px;
+          min-width: 50px;
+          min-height: 50px;
+        }
+
+        .wooc-countdown-count {
+          font-size: 20px;
+          line-height: 1;
+          font-weight: 600;
+          color: @secondaryColor;
+          margin-bottom: 5px;
+          @media @mobile {
+            font-size: 14px;
+          }
+        }
+
+        .wooc-countdown-text {
+          font-size: 14px;
+          line-height: 1;
+          color: @productTitleColor;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+.woocuecountdown-1.coutdown-new-2 {
+  .woocue-title-area .woocue-subtitle {
+    margin-top: 5px;
+    font-size: 36px;
+    line-height: 1.3;
+    font-weight: 700;
+
+    @media @mobile {
+      font-size: 30px;
+    }
+
+  }
+
+  .woocue-title-area .woocue-title {
+    font-size: 30px;
+    line-height: 1.3;
+    font-weight: 500;
+  }
+
+  .woocue-coutdown {
+    display: flex;
+    margin-top: 0;
+    @media @tablet {
+      display: block;
+      margin-top: 25px;
+    }
+
+    .wooc-countdown-section {
+      background-color: #fff;
+      margin-right: 10px;
+      text-align: center;
+      min-width: 90px;
+      min-height: 90px;
+      border-radius: 50%;
+      font-family: Josefin Sans, sans-serif;
+      -webkit-box-shadow: 14px 0px 18px rgba(93, 153, 161, 0.75);
+      box-shadow: 14px 0px 18px rgba(93, 153, 161, 0.75);
+      @media @mobile {
+        display: inline-block;
+        margin-bottom: 5px;
+        min-width: 70px;
+        min-height: 70px;
+      }
+
+      .woocue-count {
+        font-size: 30px;
+        line-height: 1;
+        font-weight: 600;
+        color: @secondaryColor;
+        margin-bottom: 3px;
+        margin-top: 8px;
+        @media @mobile {
+          font-size: 24px;
+        }
+      }
+
+      .woocue-text {
+        font-size: 18px;
+        line-height: 1;
+        @media @mobile {
+          font-size: 15px;
+        }
+
+      }
+    }
+  }
+}
+
+.woocuecountdown-1.coutdown-new-3 {
+  .woocue-title-area .woocue-subtitle {
+    margin-top: 5px;
+    font-size: 36px;
+    line-height: 1.3;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    @media @mobile {
+      font-size: 30px;
+    }
+
+    &:after {
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: -15px;
+      height: 2px;
+      width: 50px;
+      background-color: #242424;
+    }
+  }
+
+  .woocue-title-area {
+    margin-bottom: 20px;
+  }
+
+  .woocue-title-area .woocue-title {
+    font-size: 30px;
+    line-height: 1.3;
+    font-weight: 500;
+
+
+  }
+
+  .woocue-price.View-2 {
+    margin-top: 30px;
+  }
+
+  .woocue-coutdown {
+    display: flex;
+    margin-top: 0;
+    @media @tablet {
+      display: block;
+      margin-top: 25px;
+    }
+
+    .wooc-countdown-section {
+      background-color: #fff;
+      margin-right: 10px;
+      text-align: center;
+      min-width: 90px;
+      min-height: 90px;
+      border-radius: 50%;
+      font-family: Josefin Sans, sans-serif;
+      -webkit-box-shadow: 14px 0px 18px rgba(0, 0, 0, 0.075);
+      box-shadow: 14px 0px 18px rgba(0, 0, 0, 0.075);
+      @media @mobile {
+        min-width: 70px;
+        min-height: 70px;
+        margin-right: 5px;
+      }
+      @media @tablet {
+        display: inline-block;
+        margin-bottom: 5px;
+      }
+
+      .woocue-count {
+        font-size: 30px;
+        line-height: 1;
+        font-weight: 600;
+        color: @secondaryColor;
+        margin-bottom: 3px;
+        margin-top: 8px;
+      }
+
+      .woocue-text {
+        font-size: 18px;
+        line-height: 1;
+
+      }
+    }
+  }
+
+  .woocue-price {
+    padding-left: 5px;
+
+    .woocue-sale-price {
+      font-weight: 700;
+    }
+
+    .woocue-reg-price {
+      color: #8d8d8d;
+      margin: 0 0 0 10px;
+    }
+  }
+
+
+}
+
+.woocuecountdown-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media @tablet {
+    display: block;
+    text-align: center;
+  }
+
+  .woocue-left {
+    flex: 0 1 auto;
+    @media @tablet {
+      margin-bottom: 20px;
+    }
+  }
+
+  .woocue-middle {
+    flex: 1 1 auto;
+    margin: 0 35px;
+    @media @tablet {
+      margin: 0 0 30px;
+    }
+  }
+
+  .woocue-right {
+    flex: 0 0 auto;
+  }
+
+  .woocue-title {
+    font-size: 40px;
+    line-height: 1.3;
+    font-weight: 300;
+    color: @secondaryColor;
+  }
+
+  .woocue-subtitle {
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 0;
+  }
+
+  .woocue-content {
+    margin-top: 25px;
+  }
+
+  a.woocue-btn {
+    padding: 20px 30px;
+    margin-top: 30px;
+  }
+
+  .woocue-coutdown {
+    .wooc-countdown-section-top,
+    .wooc-countdown-section-bottom {
+      display: flex;
+      @media @tablet {
+        display: inline-block;
+      }
+    }
+
+    .wooc-countdown-section-top {
+      margin-bottom: 10px;
+      @media @tablet {
+        margin: 0 10px 0 0;
+      }
+      @media @small {
+        margin: 0 0 10px 0;
+      }
+    }
+
+    .wooc-countdown-section {
+      background-color: #fff;
+      text-align: center;
+      padding: 10px 12px;
+      border-radius: 4px;
+      min-width: 110px;
+      min-height: 110px;
+      box-shadow: 0px 1px 1px 0px rgba(206, 206, 206, 0.75);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      .woocue-count {
+        font-size: 32px;
+        line-height: 1;
+        font-weight: 700;
+        color: @secondaryColor;
+        margin-bottom: 8px;
+      }
+
+      .woocue-text {
+        font-size: 22px;
+        line-height: 1;
+      }
+    }
+  }
+}
+
+.discount-area {
+  display: flex;
+  align-items: flex-start;
+  @media @tablet {
+    justify-content: center;
+  }
+
+  .discount-area-left {
+    font-size: 60px;
+    line-height: 1;
+    color: @secondaryColor;
+    font-weight: 600;
+    margin-right: 15px;
+  }
+
+  .discount-area-top {
+    font-size: 24px;
+    line-height: 1.3;
+    color: @secondaryColor;
+  }
+
+  .discount-area-bottom {
+    font-size: 20px;
+    line-height: 1.3;
+    color: #333333;
+  }
+}
+
+.woocuecountdown-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media @mobile {
+    display: block;
+    text-align: center;
+  }
+
+  .woocue-left img {
+    margin-bottom: 30px;
+  }
+
+  .woocue-right {
+    @media @mobile {
+      display: none;
+    }
+  }
+
+  .woocue-coutdown {
+    display: flex;
+    @media @mobile {
+      display: block;
+    }
+
+    .wooc-countdown-section {
+      min-width: 105px;
+      background-color: @primaryColor;
+      color: #fff;
+      margin-right: 7px;
+      text-align: center;
+      padding: 12px 18px;
+      border-radius: 4px;
+      box-shadow: 0px 1px 1px 0px rgba(206, 206, 206, 0.75);
+      @media @mobile {
+        display: inline-block;
+        margin-bottom: 5px;
+      }
+
+      .woocue-count {
+        font-size: 26px;
+        line-height: 1;
+        font-weight: 700;
+        margin-bottom: 5px;
+      }
+
+      .woocue-text {
+        font-size: 18px;
+        line-height: 1;
+      }
+    }
+  }
+
+  a.woocue-btn {
+    margin-top: 30px;
+    background-color: @secondaryColor;
+    @media @mobile {
+      margin-top: 20px;
+    }
+  }
+}
+
+/*--------------------------------------
+#. EL: Video
+---------------------------------------*/
+.woocuevideo {
+  text-align: center;
+  position: relative;
+  border-radius: 4px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  .woocue-content {
+    position: relative;
+
+    .woocue-title {
+      font-size: 50px;
+      line-height: 1.1;
+      color: #ffffff;
+      font-weight: 300;
+      margin-bottom: 25px;
+    }
+
+    .woocue-btn {
+      display: inline-flex;
+      align-items: center;
+      border: 2px solid #ffffff;
+      border-radius: 25px;
+      color: #ffffff;
+      padding: 2px 3px 2px 20px;
+
+      i {
+        font-size: 36px;
+        line-height: 1;
+        margin-left: 13px;
+        background-color: transparent;
+        border-radius: 50%;
+        transition: 0.3s ease-in-out;
+      }
+
+      &:hover i {
+        background-color: @primaryColor;
+      }
+    }
+  }
+}
+
+/*--------------------------------------
+#. EL: Vertical Menu
+---------------------------------------*/
+.woocuevertical-menu {
+  @media all and (min-width: 1025px) {
+    .vertical-menu-area {
+      .vertical-menu-btn {
+        img.woocue-crossbar {
+          display: none;
+        }
+
+        img.woocue-menubar {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+
+      .vertical-menu {
+        opacity: 1;
+        visibility: visible;
+
+        ul.menu {
+          position: relative;
+          width: 100%;
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}
+
+/*--------------------------------------
+#. EL: Contact
+---------------------------------------*/
+.woocuecontact ul {
+  .ul0();
+
+  li {
+    display: flex;
+    margin-bottom: 35px;
+
+    .woocue-icon {
+      flex: 0 0 auto;
+      margin-right: 30px;
+
+      i {
+        font-size: 35px;
+        line-height: 1;
+        color: #444;
+      }
+    }
+
+    .woocue-content {
+      .woocue-label {
+        font-size: 20px;
+        line-height: 1.3;
+        font-weight: 600;
+        color: @secondaryColor;
+        margin-bottom: 10px;
+      }
+
+      .woocue-value {
+        margin: 0;
+        color: @bodyColor;
+
+        a {
+          color: @bodyColor;
+        }
+      }
+    }
+  }
+}
+
+/*-------------------------------------
+#. EL: Accordion
+---------------------------------------*/
+.woocueaccordion {
+  .card {
+    border: none;
+    border-bottom: 1px solid #ddd;
+
+    &:last-child {
+      border: none;
+    }
+
+    .card-header {
+      background: inherit;
+      border: none;
+      padding: 0;
+
+      a {
+        color: @secondaryColor;
+        display: block;
+        padding: 20px 35px 20px 0;
+        font-size: 24px;
+        line-height: 1.5;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        position: relative;
+
+        &:before {
+        font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+          content: "\f106";
+          font-size: 20px;
+          line-height: 1;
+        
+          right: 14px;
+          top: 50%;
+          transform: translateY(-50%);
+          color: #434343;
+          z-index: 1;
+          position: absolute;
+          box-shadow: none;
+          transition: 0.3s ease-in-out;
+        }
+
+        &.collapsed {
+          color: @bodyColor;
+
+          &:hover {
+            color: @secondaryColor;
+          }
+
+          &:before {
+            content: "\f107";
+            transition: 0.3s ease-in-out;
+          }
+        }
+      }
+    }
+
+    .card-body {
+      padding: 0 0 20px;
+    }
+  }
+}
+
+.col-12.col-lg-4.col-xl-4.woocue-big {
+
+}
+
+@media (min-width: 1200px) {
+  .col-12.col-lg-4.col-xl-4.woocue-big {
+    -ms-flex: 0 0 36%;
+    flex: 0 0 36%;
+    max-width: 36%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-12.col-lg-8.col-xl-8.woocue-small {
+    -ms-flex: 0 0 64%;
+    flex: 0 0 64%;
+    max-width: 64%;
+  }
+}
+
+h4.woocue-sec-title {
+  font-size: 18px;
+  line-height: 1.3;
+  color: #0e283f;
+  position: relative;
+  font-weight: 700;
+  display: inline-block;
+
+  span {
+    color: @primaryColor;
+    font-size: 30px;
+    line-height: 1;
+    width: 4px;
+    height: 4px;
+    background-color: @primaryColor;
+    display: inline-block;
+    position: absolute;
+    bottom: 6px;
+    right: -10px;
+    border-radius: 1px;
+  }
+}
+
+.wooc-slider-title-block-1 {
+  .wooc-title-block.center {
+    text-align: center;
+  }
+}
+
+.woocueisotope-tab.woocue-navs {
+  .wooc-slider-title-block-1 {
+    @media @tablet {
+      text-align: center;
+      justify-content: center;
+      margin-bottom: 15px;
+    }
+    @media @mobile {
+      text-align: center;
+      justify-content: center;
+      margin-bottom: 0;
+    }
+  }
+  .wooc-filter-block {
+    text-align: center;
+  }
+}
+
+
+.sec-separator {
+  text-align: center;
+  position: relative;
+}
+.sec-separator:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  top: 50%;
+  opacity: 0.7;
+  margin-top: -1px;
+  background: #fff;
+  background: -moz-linear-gradient(85deg, rgba(255, 255, 255, 0) 0%, #f9a392 15%, #f9a392 85%, rgba(255, 255, 255, 0) 99%);
+  background: -webkit-linear-gradient(85deg, rgba(255, 255, 255, 0) 0%, #f9a392 15%, #f9a392 85%, rgba(255, 255, 255, 0) 99%);
+  background: linear-gradient(85deg, rgba(255, 255, 255, 0) 0%, #f9a392 15%, #f9a392 85%, rgba(255, 255, 255, 0) 99%);
+}
+.sec-separator i {
+  display: inline-block;
+  font-size: 32px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  box-shadow: 0 1px 20px -5px #f9a392;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f9a392;
+  border-radius: 50%;
+  animation-name: BipingScaling;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.wooc-product-banner .slick-carousel-nav .slick-slide {
+  position: relative;
+}
+.wooc-product-banner .slick-carousel-nav .slick-slide::before {
+  position: absolute;
+  background: #ffffff;
+  width: 0;
+  content: "";
+  left: 0;
+  bottom: -8px;
+  height: 104px;
+  -webkit-transition: width 0s ease-in-out;
+  -o-transition: width 0s ease-in-out;
+  transition: width 0s ease-in-out;
+  z-index: -1;
+  border-radius: 10px;
+}
+
+.wooc-product-banner .slick-carousel-nav .slick-slide.slick-current.slick-active::before {
+  width: 100%;
+  -webkit-transition: width 3.5s ease-in-out;
+  -o-transition: width 3.5s ease-in-out;
+  transition: width 3.5s ease-in-out;
+}
+
+
+.wooc-btn-icon { 
+    .wooc-btn{
+      position: relative;
+      margin: auto;
+      padding: 15px 22px;
+      transition: all 0.2s ease;
+      @media @mobile {
+        bottom: -17px;
+      }
+     &:before {
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: 0;
+      display: block;
+      border-radius: 28px;
+      background: @lightprimaryColor;
+      width: 46px;
+      height: 46px;
+      transition: all 0.3s ease;
+    }
+    span {
+      position: relative;
+      font-size: 14px;
+      line-height: 18px;
+      font-weight: 600;      
+      vertical-align: middle;
+      color: @secondaryLight;
+      transition: all 0.3s ease;
+      font-family: @titleFont;
+    }
+
+    i{
+      position: relative;
+      top: 0;
+      margin-left: 5px;     
+      transition: all 0.3s ease;
+      color: @secondaryLight;
+      font-size: 13px;
+       transition: all 0.3s ease;
+    }  
+    &:hover:before {
+      width: 100%;
+      background: @primaryColor;
+      color: #fff;
+    }
+    &:hover span {
+      color: #fff;
+    }
+    &:hover i {
+      transform: translateX(0);
+      color: #fff;
+    }
+    &:active {
+      transform: scale(0.96);
+    }
+  }
+  
+}
+
+.countdown-product{
+  .wooc-countdown-coutdown {
+        display: flex;
+        margin-top: 24px;
+        justify-content: center;
+        @media @tablet {
+          display: block;
+          margin-top: 26px;
+        }
+        .wooc-countdown-section {          
+          margin-right: 10px;
+          text-align: center;
+         
+          @media @tablet {
+            display: inline-block;
+            margin-bottom: 5px;
+          }
+          @media @mobile {
+            padding: 10px 4px;
+            margin-bottom: 3px;
+            min-width: 50px;
+            min-height: 50px;
+          }
+          .wooc-countdown-count {
+            background-color: @iconBtnBg;
+            font-size: 18px;
+            line-height: 1;
+            font-weight: 500;
+            color: @secondaryColor;
+            margin-bottom: 5px;
+            padding: 10px 10px;
+            border-radius: 14px;  
+            margin-bottom: 10px;         
+
+            @media @mobile {
+              font-size: 14px;
+            }
+          }
+
+          .wooc-countdown-text {
+            font-size: 14px;
+            line-height: 1;
+            color: @secondaryLight;
+            font-weight: 500;
+          }
+        }
+      }
+    .wooc-product-layout-5 {
+      margin-bottom: 20px;
+      text-align: center;   
+
+    }
+    .wooc-product-layout-5 .wooc-price-area {      
+      justify-content: center;
+      align-items: center;
+    }
+    .wooc-product-layout-5 .wooc-title {     
+      text-align: center;
+    }
+
+  }
+
+
+   .wooc-category-layout-wrp{
+        .items{
+          position: relative;
+          padding-bottom: 20px;
+            &:after{                        
+                background-repeat: no-repeat;
+                background-position: center 15px;
+                transition: all 0.3s ease-out;
+                position: absolute;
+                height: 100%;
+                width: 100%;                  
+                content: "";
+                background-image: url(../img/bg.png);
+                top: 0;
+                visibility: hidden;
+                opacity: 0;
+                transition: all 0.3s ease-out; 
+                transform: scale(0.9);
+                z-index: 1;
+            }
+            &:hover{
+              &:after{  
+                visibility: visible;
+                opacity: 1;
+                transform: scale(1);
+              }
+            }
+        }
+        .items-wrp{
+            text-align: center;
+            position: relative;
+            z-index: 2;
+                .woocue-thumb {
+                display: inline-block;                
+                position: relative;
+                overflow: hidden;            
+                outline: none;
+                transition: all 0.3s ease-out;  
+                width: 120px;
+                hyphens: 120px;
+                border-radius: 100%;           
+                margin-bottom: 10px;
+                &:after {
+                  position: absolute;
+                  content: "";
+                  height: 100%;
+                  width: 100%;
+                  background-color: fade(@primaryColor, .55%);
+                  top: 0;
+                  left: 0;
+                  z-index: 1;
+                  opacity: 0;
+                  visibility: hidden;
+                  transition: all 0.3s ease-out;
+                }
+                .woocue-icon {
+                  height: 100%;
+                  width: 100%;
+                  position: absolute;
+                  top: 50%;
+                  transform: translateY(-50%);
+                  left: 0;
+                  right: 0;
+                  z-index: 2;
+                  opacity: 0;
+                  visibility: hidden;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  transition: all 0.3s ease-out;
+                  background-color: fade(@primaryColor, 50%);
+                  a{
+                    background: fade(#fff, 90%);
+                    padding: 10px;
+                    border-radius: 10px;
+                    line-height: 1;
+                    transition: all 0.3s ease-in-out;                   
+                    i{
+                      color: @primaryColor;
+                      transition: all 0.3s ease-in-out;
+                    }
+                    &:hover{
+                        background-color: @primaryColor;
+                      i {
+                          &:before {            
+                           color: #fff;
+                          }
+                        }
+                      }
+                    }
+                  i {
+                    &:before {            
+                      margin-left: 0;
+                      font-size: 16px;
+                      line-height: 1;
+                    }
+                  }
+                }      
+            
+            &:hover {
+              &:after,
+              .woocue-icon {           
+                  opacity: 1;
+                  visibility: visible;                 
+              }
+            }
+         }
+          .size-120x120{
+              border-radius: 100%;
+          }
+        }
+        .product-count{
+          margin-bottom: 10px;
+        }
+        .overlay-right{
+         h3{
+          text-transform: capitalize;
+          font-size: 18px;
+          a{
+            color: @secondaryColor;
+            &:hover{
+              color: @primaryColor;
+            }
+          }
+         }
+        }
+        .overlay{
+          h3{
+            margin-bottom: 10px;
+            a{
+              color: @secondaryColor;
+            }
+          }
+        }
+        .card-txt{
+          margin-bottom: 10px;
+        }
+        .owl-carousel .owl-item img {
+          display: inline-block;
+          width: inherit;
+          border-radius: 100%;
+          background-color: #fafafa;
+      }
+
+    }
+
+   .wooc-category-layout-wrp-1{
+        .items{
+          position: relative;   
+        }
+        .items-wrp{
+            text-align: center;
+            position: relative;
+            z-index: 2;
+                .woocue-thumb {
+                display: inline-block;                
+                position: relative;
+                overflow: hidden;            
+                outline: none;
+                transition: all 0.3s ease-out;  
+                width: 120px;
+                hyphens: 120px;
+                border-radius: 50%;           
+                margin-bottom: 10px;
+                &:after {
+                  position: absolute;
+                  content: "";
+                  height: 100%;
+                  width: 100%;
+                  background-color: fade(@primaryColor, .55%);
+                  top: 0;
+                  left: 0;
+                  z-index: 1;
+                  opacity: 0;
+                  visibility: hidden;
+                  transition: all 0.3s ease-out;
+                }
+                .woocue-icon {
+                  height: 100%;
+                  width: 100%;
+                  position: absolute;
+                  top: 50%;
+                  transform: translateY(-50%);
+                  left: 0;
+                  right: 0;
+                  z-index: 2;
+                  opacity: 0;
+                  visibility: hidden;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  transition: all 0.3s ease-out;
+                  background-color: fade(@primaryColor, 50%);
+                  a{
+                    background: fade(#fff, 90%);
+                    padding: 10px;
+                    border-radius: 10px;
+                    line-height: 1;
+                    transition: all 0.3s ease-in-out;                   
+                    i{
+                      color: @primaryColor;
+                      transition: all 0.3s ease-in-out;
+                    }
+                    &:hover{
+                        background-color: @primaryColor;
+                      i {
+                          &:before {            
+                           color: #fff;
+                          }
+                        }
+                      }
+                    }
+                  i {
+                    &:before {            
+                      margin-left: 0;
+                      font-size: 16px;
+                      line-height: 1;
+                    }
+                  }
+                }      
+            
+            &:hover {
+              &:after,
+              .woocue-icon {           
+                  opacity: 1;
+                  visibility: visible;                 
+              }
+            }
+         }
+
+          .size-120x120{
+              border-radius: 12px;    
+          }
+        }
+        .product-count{
+          margin-bottom: 10px;
+        }
+        .overlay-right{
+         h3{
+          text-transform: capitalize;
+          font-size: 18px;
+          a{
+            color: @productTitleColor;
+            &:hover{
+              color: @primaryColor;
+            }
+          }
+         }
+        }
+        .overlay{
+          h3{
+            margin-bottom: 10px;
+            font-size: 18px;
+            a{
+             color: @productTitleColor;
+             &:hover{
+              color: @primaryColor;
+            }
+            }
+          }
+        }
+        .card-txt{
+          margin-bottom: 10px;
+        }
+        .owl-carousel .owl-item img {
+          display: inline-block;
+          width: inherit;
+          border-radius: 50%;            
+          background-color: #fafafa;
+      }
+
+    }
+
+
+.countdown-product .woocueproduct-box.primary-bg {
+  background-color: @accentColor;
+  padding-bottom: 30px;
+  border-radius: 16px;
+  .wooc-product-layout-5 .wooc-price{
+    color: #fff;
+  }
+  .wooc-product-layout-5 .wooc-title a{
+     color: #fff;
+  }
+  .wooc-countdown-coutdown .wooc-countdown-section .wooc-countdown-text {  
+  color: #fff; 
+  } 
+  .wooc-countdown-coutdown .wooc-countdown-section .wooc-countdown-count {  
+    background-color: @accentLight; 
+  }
+  .wooc-product-layout-5 .wooc-thumb-wrapper {       
+    margin-bottom: 30px;
+  }
+  .wooc-product-layout-5 .wooc-price {     
+    font-size: 22px;
+    line-height: 1.3;        
+  }
+}
